@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6260627006666790615
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 11
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_VFXDisolveShader 6
+  m_Shader: {fileID: -6465566751694194690, guid: e5265d03057a5ee49bcd5eb559d542e5,
+    type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _DOUBLESIDED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    MotionVector: User
+    RenderType: TransparentCutout
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - RayTracingPrepass
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_9a971455be6141998a8d011510b23f65:
+        m_Texture: {fileID: 2800000, guid: 1c3ca9eca7ecbde43847582291289c8d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_ea5506f0abfc4b73bdf857e89c17cee1: 0
+    - Vector1_1078e146f3724819b1e34fb8b04fa3d7: 1
+    - Vector1_27f59c0f1a0f4659bf86e9cc6ae837fa: -2
+    - Vector1_42fecce876f3431a9da1c37ac265ea0d: -0.003
+    - Vector1_4d0df9ecb9d9424b95a82cf666de66af: 124.1
+    - Vector1_4f9a3988bf944b0cb8312c4d10163c2a: 0.09
+    - Vector1_6ad7e7aa973d4fbaace232e6fdc9f79d: 0.5
+    - Vector1_ac8bac20845041f983107cc8c9d6ed6c: 0.9
+    - Vector1_c4288a43066b4b0b838de83461ec96ed: 1.58
+    - Vector1_d11d339769524691812e619ae891e0c3: 1
+    - Vector1_d78dcc4272324473b39f7d67a9f4124d: 1
+    - Vector1_fd48a709aac949ea8f7a72adb3290178: 0.16
+    - _AddPrecomputedVelocity: 0
+    - _AlphaClip: 1.13
+    - _AlphaCutoffEnable: 1
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
+    - _AmbientOcclusion: 400
+    - _BlendMode: 0
+    - _CullMode: 0
+    - _CullModeForward: 0
+    - _DepthOffsetEnable: 0
+    - _DiffusionProfileHash: 3.5648174
+    - _DisolveAmount: 0.083
+    - _DistortionAmount: 0.03
+    - _DoubleSidedEnable: 1
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 0
+    - _EdgeThickness: 0.3
+    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EnableFogOnTransparent: 1
+    - _LowerLimit: -1
+    - _Metallic: 0
+    - _NoiseRotationSpeed: 3
+    - _NoiseScale: 50
+    - _OpaqueCullMode: 2
+    - _PosterizeSteps: 2
+    - _RayTracing: 0
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 0
+    - _RefractionModel: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
+    - _Smoothness: 0
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 0
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 2
+    - _StencilRefMV: 32
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
+    - _SupportDecals: 1
+    - _SurfaceType: 0
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _UpperLimit: 1.5
+    - _UseShadowThreshold: 0
+    - _WorldPosition: 0
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 3
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    m_Colors:
+    - Color_b7b401601936488bbf262afebc11f7a4: {r: 135.24524, g: 0, b: 72.67147, a: 0}
+    - Color_b7b401601936488bbf262afebc11f7a4_1: {r: 155955.23, g: 0, b: 1497.3444,
+        a: 0}
+    - Color_fc03b869d89d4e35a3082f83af5bd5c6: {r: 3.5648696, g: 3.5648696, b: 3.5648696,
+        a: 0}
+    - Vector2_fd76882e14e246968a11b7945fbc1552: {r: 1, g: 0, b: 0, a: 0}
+    - Vector3_9bd9c79bd2f64b87a7d7ac66077345ea: {r: 1, g: 0, b: 0, a: 0}
+    - Vector3_c59da5b0756a420485ce8d630effd179: {r: 1, g: 1, b: 0, a: 0}
+    - _DiffusionProfileAsset: {r: 2.2888926e+38, g: 1.2389358e-26, b: 7.69327e-37,
+        a: 0.00018220427}
+    - _DisolveDirection: {r: 1, g: 1, b: 0, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
+    - _EdgeColor: {r: 4.867144, g: 0, b: 0.05096486, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 0, g: 0.01877658, b: 0.3209088, a: 0}
+    - _NoseRotationAxis: {r: 4.86, g: 0, b: 1, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &6210748820320775683
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa486462e6be1764e89c788ba30e61f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DiffusionProfileReferences:
+  - {fileID: 11400000, guid: 78322c7f82657514ebe48203160e3f39, type: 2}
+  m_MaterialReferences: []

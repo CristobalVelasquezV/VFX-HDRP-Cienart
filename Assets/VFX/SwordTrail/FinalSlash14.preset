@@ -1,0 +1,716 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FinalSlash14
+  m_TargetType:
+    m_NativeTypeID: 2083052967
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Asset
+    value: 
+    objectReference: {fileID: 8926484042661614526, guid: ebe8a78e54957b44aaa43af3c7cc7916,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_InitialEventName
+    value: OnPlay
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_InitialEventNameOverriden
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_StartSeed
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ResetSeedOnPlay
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ResourceVersion
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[0].m_Value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[0].m_Name
+    value: SpawnOnMovement
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[0].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[1].m_Value
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[1].m_Name
+    value: LifeTime
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[1].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Value
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Name
+    value: Size
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[3].m_Value
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[3].m_Name
+    value: NoiseAmplitude
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[3].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[4].m_Value
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[4].m_Name
+    value: Distortion
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[4].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[5].m_Value
+    value: 11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[5].m_Name
+    value: SlashLenght
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[5].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector2f.m_Array.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.x
+    value: 289.60016
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.y
+    value: 171.13986
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.z
+    value: 341.2544
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Name
+    value: Target_angles
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.x
+    value: 7.5769563
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.y
+    value: 2.1042988
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.z
+    value: 1.0058231
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Name
+    value: Target_position
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Value.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Value.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Value.z
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Name
+    value: Target_scale
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.x
+    value: 0.043137256
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.y
+    value: 0.043137256
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.z
+    value: 0.043137256
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Name
+    value: HeatColor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[1].m_Value.x
+    value: 19.468573
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[1].m_Value.y
+    value: 19.468573
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[1].m_Value.z
+    value: 19.468573
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[1].m_Value.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[1].m_Name
+    value: BorderColor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[1].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Uint.m_Array.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Int.m_Array.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Matrix4x4f.m_Array.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key0.r
+    value: 0.2735849
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key0.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key0.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key0.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key1.r
+    value: 5.992157
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key1.g
+    value: 0.1254902
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key1.b
+    value: 0.1254902
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key1.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key2.r
+    value: 766.9961
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key2.g
+    value: 16.062746
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key2.b
+    value: 16.062746
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key2.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key3.r
+    value: 5.992157
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key3.g
+    value: 0.1254902
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key3.b
+    value: 0.1254902
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key3.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key4.r
+    value: 5.992157
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key4.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key4.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key4.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key5.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key5.g
+    value: 0.48008284
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key5.b
+    value: 6.062982
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key5.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key6.r
+    value: 0.3963049
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key6.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key6.b
+    value: 1.7735716
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key6.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key7.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key7.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key7.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key7.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.ctime0
+    value: 964
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.ctime1
+    value: 12336
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.ctime2
+    value: 31997
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.ctime3
+    value: 48959
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.ctime4
+    value: 64571
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.ctime5
+    value: 45104
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.ctime6
+    value: 56476
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.ctime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.atime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.atime1
+    value: 66
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.atime2
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.atime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.atime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.atime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.atime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.atime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.m_NumColorKeys
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.m_NumAlphaKeys
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Name
+    value: ColorGradient
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key0.r
+    value: 0.2735849
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key0.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key0.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key0.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key1.r
+    value: 51.377876
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key1.g
+    value: 1.0759765
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key1.b
+    value: 1.0759765
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key1.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key2.r
+    value: 1024
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key2.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key2.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key2.a
+    value: 0.8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key3.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key3.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key3.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key3.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key4.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key4.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key4.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key4.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key5.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key5.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key5.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key5.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key6.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key6.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key6.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key6.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key7.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key7.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key7.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key7.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.ctime0
+    value: 964
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.ctime1
+    value: 33153
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.ctime2
+    value: 64571
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.ctime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.ctime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.ctime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.ctime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.ctime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.atime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.atime1
+    value: 66
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.atime2
+    value: 52428
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.atime3
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.atime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.atime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.atime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.atime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.m_NumColorKeys
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.m_NumAlphaKeys
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Name
+    value: GradientMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
+    value: 
+    objectReference: {fileID: 2800000, guid: b1f8d78a5fe9ad94cb9f2eaa2f795e1e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Name
+    value: TrialTexture
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Bool.m_Array.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Bool.m_Array.Array.data[0].m_Value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Bool.m_Array.Array.data[0].m_Name
+    value: AlphaOverLife
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PropertySheet.m_Bool.m_Array.Array.data[0].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

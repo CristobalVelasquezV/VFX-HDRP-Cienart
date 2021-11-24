@@ -1,0 +1,1228 @@
+fileFormatVersion: 2
+guid: db2bcf85d9a03634a97366a462eba7b6
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -174314213300176866
+    second: 360Attk_v01
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip '360Attk_v01' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Soldado3y4_Rig_M1:Spine_01' has translation
+      animation that will be discarded.\n\t'Soldado3y4_Rig_M1:Sword_JNT' has translation
+      animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: 360Attk_v01
+      takeName: 360Attk_v01
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.44481605
+        functionName: ActivatePS
+        data: 
+        objectReferenceParameter: {fileID: 3284569728125698077, guid: 1496900e61a6d7348b058be83d97c664,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Soldado3y4_Rig_M1:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:UpperLeg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:UpperLeg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:LowerLeg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:LowerLeg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Spine_01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Spine_02
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Clavicle_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Clavicle_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Shoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Shoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Ball_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Ball_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Thumb_01
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Thumb_02
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:IndexFinger_01
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:IndexFinger_02
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:IndexFinger_03
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Finger_01
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Finger_02
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Finger_03
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Thumb_04
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Thumb_05
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:IndexFinger_05
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:IndexFinger_06
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:IndexFinger_07
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Finger_05
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Finger_06
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Finger_07
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Sword_JNT
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado3y4_Rig_M1:Spine_03
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Soldado4_360Attk_v01(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:ROOT
+      parentName: Soldado4_360Attk_v01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1203854, y: 1.1203854, z: 1.1203854}
+    - name: Soldado3y4_Rig_M1:Hips
+      parentName: Soldado3y4_Rig_M1:ROOT
+      position: {x: 1.1832913e-32, y: 1.0328827, z: 0.033352673}
+      rotation: {x: 0.4611367, y: -0.5360532, z: -0.4611367, w: 0.5360531}
+      scale: {x: 1.0000008, y: 1.000001, z: 1}
+    - name: Soldado3y4_Rig_M1:UpperLeg_R
+      parentName: Soldado3y4_Rig_M1:Hips
+      position: {x: 0.035228107, y: 0.007234576, z: -0.14764243}
+      rotation: {x: 0.04503394, y: 0.7371417, z: -0.67145616, w: -0.06116161}
+      scale: {x: 0.99999976, y: 1, z: 0.9999999}
+    - name: Soldado3y4_Rig_M1:LowerLeg_R
+      parentName: Soldado3y4_Rig_M1:UpperLeg_R
+      position: {x: -0.45865184, y: 0.0039676945, z: -0.06667246}
+      rotation: {x: 0.6443777, y: 0.024462715, z: -0.00473772, w: 0.7643013}
+      scale: {x: 1.0000015, y: 1.0000018, z: 1.0000029}
+    - name: Soldado3y4_Rig_M1:Ankle_R
+      parentName: Soldado3y4_Rig_M1:LowerLeg_R
+      position: {x: -0.47430447, y: 0.05962875, z: 0.016387852}
+      rotation: {x: -0.8525376, y: -0.5053143, z: -0.06388867, w: 0.11728394}
+      scale: {x: 1.0000001, y: 0.9999998, z: 0.99999994}
+    - name: Soldado3y4_Rig_M1:Ball_R
+      parentName: Soldado3y4_Rig_M1:Ankle_R
+      position: {x: -0.15390684, y: 0.018991325, z: 0.00000014753755}
+      rotation: {x: -0.073362865, y: -0.011131852, z: -0.2692716, w: 0.9602014}
+      scale: {x: 1.0000007, y: 0.99999964, z: 1.0000006}
+    - name: Soldado3y4_Rig_M1:Toes_R
+      parentName: Soldado3y4_Rig_M1:Ball_R
+      position: {x: -0.11152316, y: 0.0000000054557683, z: 0.00000014396007}
+      rotation: {x: -0.000000021846713, y: -0.7071062, z: -0.000000021846672, w: 0.7071075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:UpperLeg_L
+      parentName: Soldado3y4_Rig_M1:Hips
+      position: {x: 0.035228215, y: 0.00723456, z: 0.14836726}
+      rotation: {x: 0.6102551, y: -0.068804644, z: -0.19065416, w: 0.76583666}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000008}
+    - name: Soldado3y4_Rig_M1:LowerLeg_L
+      parentName: Soldado3y4_Rig_M1:UpperLeg_L
+      position: {x: 0.42482302, y: 0.10561197, z: -0.15233377}
+      rotation: {x: -0.648619, y: 0.018035071, z: -0.014033204, w: -0.76077014}
+      scale: {x: 1.0000012, y: 1.0000005, z: 1.0000019}
+    - name: Soldado3y4_Rig_M1:Ankle_L
+      parentName: Soldado3y4_Rig_M1:LowerLeg_L
+      position: {x: 0.47144789, y: -0.023004381, z: -0.07735037}
+      rotation: {x: -0.117167465, y: -0.16617647, z: 0.5846414, w: -0.785399}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999996}
+    - name: Soldado3y4_Rig_M1:Ball_L
+      parentName: Soldado3y4_Rig_M1:Ankle_L
+      position: {x: 0.15390679, y: -0.018991316, z: -0.000000002436515}
+      rotation: {x: 0.06456646, y: 0.009800811, z: -0.26943618, w: 0.9608014}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: Soldado3y4_Rig_M1:Toes_L
+      parentName: Soldado3y4_Rig_M1:Ball_L
+      position: {x: 0.11152316, y: 0.000000033690583, z: -3.388971e-10}
+      rotation: {x: -2.7437614e-13, y: -0.7071068, z: -2.7437614e-13, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Spine_01
+      parentName: Soldado3y4_Rig_M1:Hips
+      position: {x: -0.18703748, y: 0.0125578195, z: 4.60734e-16}
+      rotation: {x: -0.9950197, y: 0.099678844, z: 0.000000029802322, w: -0.000000029802322}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1.0000004}
+    - name: Soldado3y4_Rig_M1:Spine_02
+      parentName: Soldado3y4_Rig_M1:Spine_01
+      position: {x: -0.18151169, y: -2.0456305e-10, z: -7.5028154e-17}
+      rotation: {x: 0.99518615, y: -0.0980027, z: -0.000000031237413, w: -0.000000015025531}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Soldado3y4_Rig_M1:Spine_03
+      parentName: Soldado3y4_Rig_M1:Spine_02
+      position: {x: -0.19744731, y: 0.09405998, z: -9.147517e-16}
+      rotation: {x: -0.99175465, y: 0.12815113, z: -0.000000013117244, w: -0.00000007460668}
+      scale: {x: 1.0000005, y: 1.0000008, z: 0.99999964}
+    - name: Soldado3y4_Rig_M1:Neck
+      parentName: Soldado3y4_Rig_M1:Spine_03
+      position: {x: -0.071185015, y: 0.04951443, z: -2.310969e-16}
+      rotation: {x: 0.00000006101949, y: 0.000000020425308, z: -0.2059348, w: 0.97856575}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: Soldado3y4_Rig_M1:Head
+      parentName: Soldado3y4_Rig_M1:Neck
+      position: {x: -0.02554243, y: -0.027032718, z: 1.263958e-15}
+      rotation: {x: 0.40961516, y: -0.5763813, z: 0.40961516, w: 0.5763813}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Soldado3y4_Rig_M1:transform6
+      parentName: Soldado3y4_Rig_M1:Head
+      position: {x: 1.4944541e-14, y: -1.8235251, z: -0.07264066}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.89255005, y: 0.89255005, z: 0.89255005}
+    - name: Soldado3y4_Rig_M1:transform7
+      parentName: Soldado3y4_Rig_M1:Head
+      position: {x: 1.4944541e-14, y: -1.8235251, z: -0.07264066}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.89255005, y: 0.89255005, z: 0.89255005}
+    - name: Soldado3y4_Rig_M1:Plumas6
+      parentName: Soldado3y4_Rig_M1:transform7
+      position: {x: 0.014101858, y: 3.015077, z: -0.18453436}
+      rotation: {x: -0.10115572, y: -0.26537877, z: -0.7506263, w: 0.59657496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Plumas7
+      parentName: Soldado3y4_Rig_M1:Plumas6
+      position: {x: -0.30618885, y: 0.027100874, z: 0.17305948}
+      rotation: {x: 0.10114803, y: -0.17731117, z: -0.03393124, w: 0.97835505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Plumas8
+      parentName: Soldado3y4_Rig_M1:Plumas7
+      position: {x: -0.1821371, y: -0.011209379, z: 0.08402379}
+      rotation: {x: -0.0069201617, y: 0.013711841, z: 0.08557629, w: 0.99621326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Plumas9
+      parentName: Soldado3y4_Rig_M1:Plumas8
+      position: {x: -0.24443218, y: -0.011449493, z: 0.017061716}
+      rotation: {x: -0.011422524, y: -0.11626278, z: 0.45829186, w: 0.8810908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:transform8
+      parentName: Soldado3y4_Rig_M1:Head
+      position: {x: 1.4944541e-14, y: -1.8235251, z: -0.07264066}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.89255005, y: 0.89255005, z: 0.89255005}
+    - name: Soldado3y4_Rig_M1:Plumas1
+      parentName: Soldado3y4_Rig_M1:transform8
+      position: {x: 0.014101858, y: 3.015077, z: -0.18453436}
+      rotation: {x: 0.069372796, y: -0.2812012, z: -0.22925416, w: 0.92927706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Plumas2
+      parentName: Soldado3y4_Rig_M1:Plumas1
+      position: {x: -0.36925042, y: 0.08946482, z: 0.0018691514}
+      rotation: {x: 0.10114803, y: -0.17731117, z: -0.03393124, w: 0.97835505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Plumas3
+      parentName: Soldado3y4_Rig_M1:Plumas2
+      position: {x: -0.24120873, y: -0.012961695, z: -0.03277885}
+      rotation: {x: -0.0069201617, y: 0.013711841, z: 0.08557629, w: 0.99621326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Plumas4
+      parentName: Soldado3y4_Rig_M1:Plumas3
+      position: {x: -0.14395243, y: -0.01826861, z: 3.7324062e-16}
+      rotation: {x: -0.011422524, y: -0.11626278, z: 0.45829186, w: 0.8810908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Plumas5
+      parentName: Soldado3y4_Rig_M1:Plumas4
+      position: {x: -0.14799042, y: -1.0658141e-16, z: -2.6645352e-17}
+      rotation: {x: 0.1610718, y: 0.5421712, z: -0.23485787, w: 0.79053664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Clavicle_L
+      parentName: Soldado3y4_Rig_M1:Spine_03
+      position: {x: -0.03662269, y: 0.069782525, z: -0.16709752}
+      rotation: {x: 0.62983733, y: -0.59525204, z: 0.25750035, w: 0.4274032}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+    - name: Soldado3y4_Rig_M1:Shoulder_L
+      parentName: Soldado3y4_Rig_M1:Clavicle_L
+      position: {x: -0.11136839, y: -0.08329495, z: 0.07981021}
+      rotation: {x: 0.031732287, y: 0.26333678, z: 0.11859979, w: 0.95685995}
+      scale: {x: 0.99999964, y: 0.999999, z: 0.99999917}
+    - name: Soldado3y4_Rig_M1:Elbow_L
+      parentName: Soldado3y4_Rig_M1:Shoulder_L
+      position: {x: -0.39262593, y: 0.032503195, z: -0.007400633}
+      rotation: {x: 0.0016408619, y: 0.03705004, z: -0.03705105, w: 0.99862504}
+      scale: {x: 0.9999991, y: 0.99999994, z: 1.0000002}
+    - name: Soldado3y4_Rig_M1:ShieldGRP_JNT
+      parentName: Soldado3y4_Rig_M1:Elbow_L
+      position: {x: -0.38095993, y: 0.108669125, z: -0.08014123}
+      rotation: {x: 0, y: -0.035830773, z: -0, w: 0.9993579}
+      scale: {x: 0.89255005, y: 0.89255005, z: 0.89255005}
+    - name: Soldado3y4_Rig_M1:Shield_JNT
+      parentName: Soldado3y4_Rig_M1:ShieldGRP_JNT
+      position: {x: 0.5519134, y: -0.38260695, z: -1.8903376}
+      rotation: {x: -0.23716976, y: 0.7870209, z: 0.30715677, w: -0.4795866}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Hand_L
+      parentName: Soldado3y4_Rig_M1:Elbow_L
+      position: {x: -0.4489459, y: 0.0000000064329053, z: -0.006613647}
+      rotation: {x: -0.0000008904608, y: -0.03583063, z: 0.000000026553607, w: 0.9993579}
+      scale: {x: 1.0000005, y: 0.9999997, z: 1}
+    - name: Soldado3y4_Rig_M1:Thumb_01
+      parentName: Soldado3y4_Rig_M1:Hand_L
+      position: {x: -0.07412828, y: -0.02750258, z: 0.101599015}
+      rotation: {x: 0.2537245, y: 0.042359427, z: -0.06590854, w: 0.9640984}
+      scale: {x: 1.0000002, y: 1, z: 0.9999997}
+    - name: Soldado3y4_Rig_M1:Thumb_02
+      parentName: Soldado3y4_Rig_M1:Thumb_01
+      position: {x: -0.041698046, y: 0.0051259687, z: 0.039208062}
+      rotation: {x: 0.029529437, y: 0.18765526, z: -0.085755445, w: 0.97803867}
+      scale: {x: 1.0000002, y: 1.0000004, z: 0.9999999}
+    - name: Soldado3y4_Rig_M1:Thumb_03
+      parentName: Soldado3y4_Rig_M1:Thumb_02
+      position: {x: -0.08190152, y: -0.0018603307, z: 0.02485783}
+      rotation: {x: -0.036403257, y: -0.15203469, z: -0.22999534, w: 0.9605532}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:IndexFinger_01
+      parentName: Soldado3y4_Rig_M1:Hand_L
+      position: {x: -0.19418132, y: 0.0503999, z: 0.06735993}
+      rotation: {x: 0.000112878326, y: 0.14254579, z: 0.006936945, w: 0.989764}
+      scale: {x: 1.000001, y: 0.999999, z: 1}
+    - name: Soldado3y4_Rig_M1:IndexFinger_02
+      parentName: Soldado3y4_Rig_M1:IndexFinger_01
+      position: {x: -0.07162542, y: 0.00031805338, z: -0.009486924}
+      rotation: {x: -0.0011539776, y: -0.010741696, z: 0.09832992, w: 0.9950953}
+      scale: {x: 0.9999997, y: 1.0000001, z: 0.9999998}
+    - name: Soldado3y4_Rig_M1:IndexFinger_03
+      parentName: Soldado3y4_Rig_M1:IndexFinger_02
+      position: {x: -0.06525154, y: 0.011204398, z: -0.008278768}
+      rotation: {x: -0.0069122193, y: -0.025717303, z: 0.057002485, w: 0.9980188}
+      scale: {x: 0.99999994, y: 1.000002, z: 1.0000002}
+    - name: Soldado3y4_Rig_M1:IndexFinger_04
+      parentName: Soldado3y4_Rig_M1:IndexFinger_03
+      position: {x: -0.07258141, y: 0.024022324, z: -0.004348102}
+      rotation: {x: -0.004519649, y: -0.028039929, z: -0.15906802, w: 0.986859}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Finger_01
+      parentName: Soldado3y4_Rig_M1:Hand_L
+      position: {x: -0.1748318, y: 0.037091266, z: -0.034517523}
+      rotation: {x: 0.004681505, y: 0.020261765, z: 0.07233101, w: 0.99716383}
+      scale: {x: 1.000001, y: 0.999999, z: 0.99999994}
+    - name: Soldado3y4_Rig_M1:Finger_02
+      parentName: Soldado3y4_Rig_M1:Finger_01
+      position: {x: -0.05357257, y: 0.0060908785, z: 0.006338092}
+      rotation: {x: 0.0026372548, y: 0.019491984, z: 0.021269323, w: 0.99958026}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999998}
+    - name: Soldado3y4_Rig_M1:Finger_03
+      parentName: Soldado3y4_Rig_M1:Finger_02
+      position: {x: -0.0652372, y: 0.010244248, z: 0.0032110356}
+      rotation: {x: -0.01814922, y: -0.07147889, z: 0.09251076, w: 0.99297696}
+      scale: {x: 0.99999934, y: 1.000001, z: 1}
+    - name: Soldado3y4_Rig_M1:Finger_04
+      parentName: Soldado3y4_Rig_M1:Finger_03
+      position: {x: -0.0827086, y: 0.029401617, z: 0.01744807}
+      rotation: {x: 0.01664637, y: 0.096525334, z: -0.16913006, w: 0.98071444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Clavicle_R
+      parentName: Soldado3y4_Rig_M1:Spine_03
+      position: {x: -0.036622964, y: 0.069782525, z: 0.16709724}
+      rotation: {x: -0.86998725, y: -0.03325626, z: -0.11517432, w: 0.4782793}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: Soldado3y4_Rig_M1:Shoulder_R
+      parentName: Soldado3y4_Rig_M1:Clavicle_R
+      position: {x: 0.08309958, y: -0.10944623, z: -0.082623005}
+      rotation: {x: 0.27038923, y: -0.01925479, z: 0.11146775, w: 0.9560826}
+      scale: {x: 1.0000014, y: 1.0000026, z: 1.000004}
+    - name: Soldado3y4_Rig_M1:Elbow_R
+      parentName: Soldado3y4_Rig_M1:Shoulder_R
+      position: {x: -0.024185184, y: -0.3933852, z: 0.0073990505}
+      rotation: {x: 0.03705906, y: -0.0013283711, z: -0.024305021, w: 0.9990166}
+      scale: {x: 1.0000013, y: 0.9999999, z: 1.0000001}
+    - name: Soldado3y4_Rig_M1:Hand_R
+      parentName: Soldado3y4_Rig_M1:Elbow_R
+      position: {x: -0.0019396889, y: -0.44878376, z: 0.0066022556}
+      rotation: {x: -0.03583057, y: 0.00013420905, z: -0.0005781221, w: 0.99935776}
+      scale: {x: 0.99999875, y: 1.0000021, z: 1.0000004}
+    - name: Soldado3y4_Rig_M1:transform5
+      parentName: Soldado3y4_Rig_M1:Hand_R
+      position: {x: 1.6192671, y: 1.1389601, z: 0.057191737}
+      rotation: {x: -0.7059869, y: 0.70822495, z: 3.5898083e-14, w: -3.5784645e-14}
+      scale: {x: 0.89255005, y: 0.89255005, z: 0.89255005}
+    - name: Soldado3y4_Rig_M1:Sword_GRP_JNT
+      parentName: Soldado3y4_Rig_M1:Hand_R
+      position: {x: 0.025797423, y: -0.14852355, z: -0.049772553}
+      rotation: {x: -0.7059869, y: 0.70822495, z: 3.5898083e-14, w: -3.5784645e-14}
+      scale: {x: 0.89255005, y: 0.89255005, z: 0.89255005}
+    - name: Soldado3y4_Rig_M1:Sword_JNT
+      parentName: Soldado3y4_Rig_M1:Sword_GRP_JNT
+      position: {x: 0.0041056825, y: 0.0023916624, z: -0.44789326}
+      rotation: {x: 0.72652537, y: 0.031561814, z: 0.68580824, w: -0.028839253}
+      scale: {x: 1.0000001, y: 1.0000008, z: 1.0000008}
+    - name: Soldado3y4_Rig_M1:Thumb_04
+      parentName: Soldado3y4_Rig_M1:Hand_R
+      position: {x: 0.029576324, y: -0.05136926, z: -0.079062924}
+      rotation: {x: -0.09841553, y: -0.8550195, z: -0.22065592, w: 0.4588758}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.000001}
+    - name: Soldado3y4_Rig_M1:Thumb_05
+      parentName: Soldado3y4_Rig_M1:Thumb_04
+      position: {x: -0.0598988, y: -0.069077335, z: -0.01366054}
+      rotation: {x: 0.010395897, y: -0.024295185, z: -0.22385822, w: 0.9742634}
+      scale: {x: 1.0000007, y: 1.0000006, z: 0.99999976}
+    - name: Soldado3y4_Rig_M1:Thumb_06
+      parentName: Soldado3y4_Rig_M1:Thumb_05
+      position: {x: -0.024551656, y: -0.08191114, z: -0.0041101505}
+      rotation: {x: 0.0035446472, y: 0.009625891, z: 0.007899453, w: 0.9999162}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:IndexFinger_05
+      parentName: Soldado3y4_Rig_M1:Hand_R
+      position: {x: -0.048529442, y: -0.18161164, z: -0.05718513}
+      rotation: {x: -0.13609895, y: -0.0022043264, z: 0.006016273, w: -0.9906746}
+      scale: {x: 1.0000004, y: 1.0000001, z: 0.99999976}
+    - name: Soldado3y4_Rig_M1:IndexFinger_06
+      parentName: Soldado3y4_Rig_M1:IndexFinger_05
+      position: {x: -0.00067147135, y: -0.08636256, z: 0.011439148}
+      rotation: {x: 0.010751649, y: -0.0010569483, z: -0.08670377, w: -0.9961756}
+      scale: {x: 1.000001, y: 0.99999917, z: 1.0000001}
+    - name: Soldado3y4_Rig_M1:IndexFinger_07
+      parentName: Soldado3y4_Rig_M1:IndexFinger_06
+      position: {x: -0.009851438, y: -0.06546906, z: 0.008278668}
+      rotation: {x: -0.025842443, y: 0.0064287903, z: 0.05895493, w: 0.9979054}
+      scale: {x: 0.99999946, y: 1.0000006, z: 0.9999999}
+    - name: Soldado3y4_Rig_M1:IndexFinger_08
+      parentName: Soldado3y4_Rig_M1:IndexFinger_07
+      position: {x: -0.022800254, y: -0.07297515, z: 0.004348136}
+      rotation: {x: 0.010008598, y: -0.013127802, z: -0.013274175, w: 0.99977565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Finger_05
+      parentName: Soldado3y4_Rig_M1:Hand_R
+      position: {x: -0.034618486, y: -0.17417541, z: 0.03103498}
+      rotation: {x: 0.035671487, y: -0.0036461467, z: 0.055856727, w: 0.9977947}
+      scale: {x: 1.0000005, y: 0.9999996, z: 0.99999976}
+    - name: Soldado3y4_Rig_M1:Finger_06
+      parentName: Soldado3y4_Rig_M1:Finger_05
+      position: {x: -0.005619024, y: -0.060702737, z: -0.005374181}
+      rotation: {x: 0.019524945, y: -0.0023818687, z: 0.029078033, w: 0.9993837}
+      scale: {x: 1.0000014, y: 0.9999989, z: 1.0000002}
+    - name: Soldado3y4_Rig_M1:Finger_07
+      parentName: Soldado3y4_Rig_M1:Finger_06
+      position: {x: -0.0071650287, y: -0.047255453, z: -0.0023240622}
+      rotation: {x: 0.06327693, y: 0.037876997, z: 0.63469684, w: -0.76923424}
+      scale: {x: 1.0000015, y: 0.99999774, z: 0.9999999}
+    - name: Soldado3y4_Rig_M1:Finger_08
+      parentName: Soldado3y4_Rig_M1:Finger_07
+      position: {x: 0.08270824, y: -0.029401492, z: -0.017447995}
+      rotation: {x: 0.028479932, y: -0.02622546, z: 0.70719844, w: 0.7059543}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:CTRL_General
+      parentName: Soldado4_360Attk_v01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:IK_FK_ArmL_GRP
+      parentName: Soldado3y4_Rig_M1:CTRL_General
+      position: {x: -0.18721363, y: 1.8469186, z: 0.076315805}
+      rotation: {x: 0.083502, y: -0.24155915, z: -0.014936814, w: 0.96667135}
+      scale: {x: 1.1203854, y: 1.1203854, z: 1.1203854}
+    - name: Soldado3y4_Rig_M1:Shoulder_L_FK
+      parentName: Soldado3y4_Rig_M1:IK_FK_ArmL_GRP
+      position: {x: -0.11136839, y: -0.083294965, z: 0.07981021}
+      rotation: {x: 0.0113281235, y: 0.23685996, z: 0.03380652, w: 0.9708894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Elbow_L_FK
+      parentName: Soldado3y4_Rig_M1:Shoulder_L_FK
+      position: {x: -0.39262587, y: 0.03250324, z: -0.007400628}
+      rotation: {x: 0.0016838326, y: 0.040749595, z: -0.041251875, w: 0.99831605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Hand_L_FK
+      parentName: Soldado3y4_Rig_M1:Elbow_L_FK
+      position: {x: -0.44894594, y: 1.9895197e-15, z: -0.0066136424}
+      rotation: {x: -6.6705744e-17, y: -0.035830766, z: 1.8901057e-15, w: 0.9993579}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Shoulder_L_IK
+      parentName: Soldado3y4_Rig_M1:IK_FK_ArmL_GRP
+      position: {x: -0.11136839, y: -0.08329495, z: 0.07981021}
+      rotation: {x: 0.28567082, y: 0.5908556, z: 0.32786855, w: 0.67954695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Elbow_L_IK
+      parentName: Soldado3y4_Rig_M1:Shoulder_L_IK
+      position: {x: -0.39262593, y: 0.032503195, z: -0.007400633}
+      rotation: {x: 0.020035552, y: 0.48747247, z: -0.03511972, w: 0.87220174}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Hand_L_IK
+      parentName: Soldado3y4_Rig_M1:Elbow_L_IK
+      position: {x: -0.4489459, y: 0.0000000064329058, z: -0.006613647}
+      rotation: {x: 0.28993243, y: -0.088337176, z: 0.17870755, w: 0.93605524}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:IK_FK_ArmR_GRP
+      parentName: Soldado3y4_Rig_M1:CTRL_General
+      position: {x: 0.18721332, y: 1.846919, z: 0.07631588}
+      rotation: {x: 0.67899096, y: -0.64854336, z: -0.2997364, w: 0.16888125}
+      scale: {x: 1.1203854, y: 1.1203854, z: 1.1203854}
+    - name: Soldado3y4_Rig_M1:Shoulder_R_FK
+      parentName: Soldado3y4_Rig_M1:IK_FK_ArmR_GRP
+      position: {x: 0.08309958, y: -0.10944623, z: -0.082623005}
+      rotation: {x: 0.24288492, y: 0.001326144, z: 0.026976056, w: 0.96967906}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Elbow_R_FK
+      parentName: Soldado3y4_Rig_M1:Shoulder_R_FK
+      position: {x: -0.024185184, y: -0.3933852, z: 0.007399051}
+      rotation: {x: 0.04076235, y: -0.0013400237, z: -0.028512528, w: 0.99876106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Hand_R_FK
+      parentName: Soldado3y4_Rig_M1:Elbow_R_FK
+      position: {x: -0.0019396889, y: -0.44878376, z: 0.0066022538}
+      rotation: {x: -0.035830516, y: 0.00013413433, z: -0.0005781422, w: 0.9993577}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Shoulder_R_IK
+      parentName: Soldado3y4_Rig_M1:IK_FK_ArmR_GRP
+      position: {x: 0.08309958, y: -0.10944623, z: -0.082623005}
+      rotation: {x: 0.64368796, y: -0.31533748, z: 0.4121961, w: 0.5624255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Elbow_R_IK
+      parentName: Soldado3y4_Rig_M1:Shoulder_R_IK
+      position: {x: -0.024185184, y: -0.3933852, z: 0.0073990505}
+      rotation: {x: 0.18063465, y: -0.005937661, z: -0.027980722, w: 0.98313427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Hand_R_IK
+      parentName: Soldado3y4_Rig_M1:Elbow_R_IK
+      position: {x: -0.0019396889, y: -0.44878376, z: 0.0066022556}
+      rotation: {x: 0.51570404, y: 0.80175287, z: 0.09395107, w: 0.2870801}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:IK_FK_LegL_GRP
+      parentName: Soldado3y4_Rig_M1:CTRL_General
+      position: {x: 1.0159834e-18, y: 1.1572266, z: 0.037367847}
+      rotation: {x: 0.46113664, y: -0.5360532, z: -0.46113664, w: 0.5360532}
+      scale: {x: 1.1203854, y: 1.1203854, z: 1.1203854}
+    - name: Soldado3y4_Rig_M1:UpperLeg_L_IK
+      parentName: Soldado3y4_Rig_M1:IK_FK_LegL_GRP
+      position: {x: 0.035228215, y: 0.00723456, z: 0.14836726}
+      rotation: {x: 0.7418478, y: -0.031290874, z: -0.07282911, w: 0.66586685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:LowerLeg_L_IK
+      parentName: Soldado3y4_Rig_M1:UpperLeg_L_IK
+      position: {x: 0.42482302, y: 0.10561196, z: -0.15233377}
+      rotation: {x: 0.64412314, y: -0.19646044, z: 0.0875949, w: 0.7340544}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Ankle_L_IK
+      parentName: Soldado3y4_Rig_M1:LowerLeg_L_IK
+      position: {x: 0.47144789, y: -0.023004383, z: -0.07735037}
+      rotation: {x: 0.050478145, y: 0.21215177, z: -0.63790625, w: 0.73859274}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Ball_L_IK
+      parentName: Soldado3y4_Rig_M1:Ankle_L_IK
+      position: {x: 0.15390679, y: -0.018991316, z: -0.0000000023178883}
+      rotation: {x: 0.06456654, y: 0.009800277, z: -0.26943997, w: 0.96080035}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Toes_L_IK
+      parentName: Soldado3y4_Rig_M1:Ball_L_IK
+      position: {x: 0.11131662, y: 0.0004575446, z: -0.006768683}
+      rotation: {x: -2.4728714e-13, y: -0.7071068, z: -2.4728714e-13, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:UpperLeg_L_FK
+      parentName: Soldado3y4_Rig_M1:IK_FK_LegL_GRP
+      position: {x: 0.035228215, y: 0.00723456, z: 0.14836726}
+      rotation: {x: -0.70587015, y: 0.041794166, z: -0.06416663, w: 0.7041898}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:LowerLeg_L_FK
+      parentName: Soldado3y4_Rig_M1:UpperLeg_L_FK
+      position: {x: 0.4585958, y: 0.0034738965, z: 0.06717069}
+      rotation: {x: 0.64437777, y: 0.024462728, z: -0.00473771, w: 0.7643013}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Ankle_L_FK
+      parentName: Soldado3y4_Rig_M1:LowerLeg_L_FK
+      position: {x: 0.47421512, y: -0.06166685, z: -0.009625448}
+      rotation: {x: 0.8586065, y: 0.5074864, z: 0.033833757, w: -0.06409114}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Ball_L_FK
+      parentName: Soldado3y4_Rig_M1:Ankle_L_FK
+      position: {x: 0.15390679, y: -0.018991316, z: -0.000000002317888}
+      rotation: {x: -0.000000026780198, y: -0.0000000041062314, z: -0.2700163, w: 0.96285576}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Toes_L_FK
+      parentName: Soldado3y4_Rig_M1:Ball_L_FK
+      position: {x: 0.11136213, y: 0.00035676523, z: -0.005980524}
+      rotation: {x: -2.4728714e-13, y: -0.7071068, z: -2.4728714e-13, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:IK_FK_LegR_GRP
+      parentName: Soldado3y4_Rig_M1:CTRL_General
+      position: {x: 1.0159834e-18, y: 1.1572266, z: 0.037367847}
+      rotation: {x: 0.46113664, y: -0.5360532, z: -0.46113664, w: 0.5360532}
+      scale: {x: 1.1203854, y: 1.1203854, z: 1.1203854}
+    - name: Soldado3y4_Rig_M1:UpperLeg_R_FK
+      parentName: Soldado3y4_Rig_M1:IK_FK_LegR_GRP
+      position: {x: 0.035228107, y: 0.007234576, z: -0.14764243}
+      rotation: {x: 0.041756842, y: 0.70587325, z: -0.7041898, w: -0.064157665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:LowerLeg_R_FK
+      parentName: Soldado3y4_Rig_M1:UpperLeg_R_FK
+      position: {x: -0.45861667, y: -0.001369822, z: -0.067017496}
+      rotation: {x: 0.64437777, y: 0.024462728, z: -0.00473771, w: 0.7643013}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Ankle_R_FK
+      parentName: Soldado3y4_Rig_M1:LowerLeg_R_FK
+      position: {x: -0.47424078, y: 0.061214123, z: 0.011720127}
+      rotation: {x: 0.8573438, y: 0.50710213, z: 0.041659754, w: -0.07793283}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Ball_R_FK
+      parentName: Soldado3y4_Rig_M1:Ankle_R_FK
+      position: {x: -0.15390684, y: 0.018991325, z: 0.0000001475375}
+      rotation: {x: 0.0000010429643, y: 0.0000036978065, z: -0.27001584, w: 0.9628559}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Toes_R_FK
+      parentName: Soldado3y4_Rig_M1:Ball_R_FK
+      position: {x: -0.11131525, y: -0.00046044256, z: -0.0067909984}
+      rotation: {x: -0.000000021846713, y: -0.7071062, z: -0.000000021846672, w: 0.7071075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:UpperLeg_R_IK
+      parentName: Soldado3y4_Rig_M1:IK_FK_LegR_GRP
+      position: {x: 0.035228107, y: 0.007234576, z: -0.14764243}
+      rotation: {x: -0.053161055, y: 0.7379261, z: -0.67230374, w: -0.025429828}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:LowerLeg_R_IK
+      parentName: Soldado3y4_Rig_M1:UpperLeg_R_IK
+      position: {x: -0.45865184, y: 0.0039676945, z: -0.06667246}
+      rotation: {x: 0.62479943, y: 0.18476845, z: -0.10488864, w: 0.75132203}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Ankle_R_IK
+      parentName: Soldado3y4_Rig_M1:LowerLeg_R_IK
+      position: {x: -0.47430447, y: 0.05962875, z: 0.016387852}
+      rotation: {x: 0.7883355, y: 0.57753927, z: 0.077923425, w: -0.19724001}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Ball_R_IK
+      parentName: Soldado3y4_Rig_M1:Ankle_R_IK
+      position: {x: -0.15390684, y: 0.018991325, z: 0.0000001475375}
+      rotation: {x: -0.07336289, y: -0.011131837, z: -0.26927164, w: 0.96020144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Toes_R_IK
+      parentName: Soldado3y4_Rig_M1:Ball_R_IK
+      position: {x: -0.11152316, y: 0.0000000054560263, z: 0.00000014396005}
+      rotation: {x: -0.000000021846713, y: -0.7071062, z: -0.000000021846672, w: 0.7071075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Sword_GEO_GRP
+      parentName: Soldado4_360Attk_v01(Clone)
+      position: {x: 1.4481212, y: 1.7807257, z: 0.11984123}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Handle_GEO
+      parentName: Soldado3y4_Rig_M1:Sword_GEO_GRP
+      position: {x: -1.4481212, y: -1.7807257, z: -0.11984123}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Blade_GEO
+      parentName: Soldado3y4_Rig_M1:Sword_GEO_GRP
+      position: {x: -1.4481212, y: -1.7807257, z: -0.11984123}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_GEO_GRP
+      parentName: Soldado4_360Attk_v01(Clone)
+      position: {x: -0, y: 0, z: 0.060999997}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Helmet_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_GEO_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Helmet_Inside_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_GEO_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Clothes_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_GEO_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Legs_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_GEO_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Chestplate_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_GEO_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Hombrera_L_GRP
+      parentName: Soldado3y4_Rig_M1:Soldier4_GEO_GRP
+      position: {x: -0.60844344, y: 1.9230385, z: -0.061296005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Base1_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Hombrera_L_GRP
+      position: {x: 0.60844344, y: -1.9230385, z: 0.061296005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Ext1_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Hombrera_L_GRP
+      position: {x: 0.60844344, y: -1.9230385, z: 0.061296005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Ext2_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Hombrera_L_GRP
+      position: {x: 0.60844344, y: -1.9230385, z: 0.061296005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Ext3_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Hombrera_L_GRP
+      position: {x: 0.60844344, y: -1.9230385, z: 0.061296005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Correa_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Hombrera_L_GRP
+      position: {x: 0.60844344, y: -1.9230385, z: 0.061296005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Hombrera_R_GRP
+      parentName: Soldado3y4_Rig_M1:Soldier4_GEO_GRP
+      position: {x: 0.53743905, y: 1.9384379, z: -0.08111805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Hebilla1_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Hombrera_R_GRP
+      position: {x: -0.53743905, y: -1.9384379, z: 0.08111805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Correa1_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Hombrera_R_GRP
+      position: {x: -0.53743905, y: -1.9384379, z: 0.08111805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Hebilla2_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Hombrera_R_GRP
+      position: {x: -0.53743905, y: -1.9384379, z: 0.08111805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Correa2_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Hombrera_R_GRP
+      position: {x: -0.53743905, y: -1.9384379, z: 0.08111805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Base2_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Hombrera_R_GRP
+      position: {x: -0.53743905, y: -1.9384379, z: 0.08111805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Plates_GRP
+      parentName: Soldado3y4_Rig_M1:Soldier4_GEO_GRP
+      position: {x: -0.000000019073486, y: 1.6876281, z: -0.0054489896}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Plate1_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Plates_GRP
+      position: {x: 0.000000019073486, y: -1.6876281, z: 0.0054489896}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Plate2_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Plates_GRP
+      position: {x: 0.000000019073486, y: -1.6876281, z: 0.0054489896}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Belt_GRP
+      parentName: Soldado3y4_Rig_M1:Soldier4_GEO_GRP
+      position: {x: -0, y: 1.2779912, z: 0.049447272}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Button_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Belt_GRP
+      position: {x: -0, y: -1.2779912, z: -0.049447272}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Belt_Base_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Belt_GRP
+      position: {x: -0, y: -1.2779912, z: -0.049447272}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Glove_R_GRP
+      parentName: Soldado3y4_Rig_M1:Soldier4_GEO_GRP
+      position: {x: 1.3321375, y: 1.82454, z: -0.0820458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Hand_R_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Glove_R_GRP
+      position: {x: -1.3321375, y: -1.82454, z: 0.0820458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Base_R_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Glove_R_GRP
+      position: {x: -1.3321375, y: -1.82454, z: 0.0820458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Correa_R_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Glove_R_GRP
+      position: {x: -1.3321375, y: -1.82454, z: 0.0820458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Hebilla_R_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Glove_R_GRP
+      position: {x: -1.3321375, y: -1.82454, z: 0.0820458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Plate_R_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Glove_R_GRP
+      position: {x: -1.3321375, y: -1.82454, z: 0.0820458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Glove_L_GRP
+      parentName: Soldado3y4_Rig_M1:Soldier4_GEO_GRP
+      position: {x: -1.3321375, y: 1.82454, z: -0.0820458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Plate_L_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Glove_L_GRP
+      position: {x: 1.3321375, y: -1.82454, z: 0.0820458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Hebilla_L_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Glove_L_GRP
+      position: {x: 1.3321375, y: -1.82454, z: 0.0820458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Correa_L_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Glove_L_GRP
+      position: {x: 1.3321375, y: -1.82454, z: 0.0820458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Base_L_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Glove_L_GRP
+      position: {x: 1.3321375, y: -1.82454, z: 0.0820458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Hand_L_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Glove_L_GRP
+      position: {x: 1.3321375, y: -1.82454, z: 0.0820458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Rodillera_R_GRP
+      parentName: Soldado3y4_Rig_M1:Soldier4_GEO_GRP
+      position: {x: 0.17517154, y: 0.60011035, z: 0.018109573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Correa_R_GEO 1
+      parentName: Soldado3y4_Rig_M1:Soldier4_Rodillera_R_GRP
+      position: {x: -0.17517154, y: -0.60011035, z: -0.018109573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Knee_Plate_R_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Rodillera_R_GRP
+      position: {x: -0.17517154, y: -0.60011035, z: -0.018109573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Plate1_R_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Rodillera_R_GRP
+      position: {x: -0.17517154, y: -0.60011035, z: -0.018109573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Plate3_R_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Rodillera_R_GRP
+      position: {x: -0.17517154, y: -0.60011035, z: -0.018109573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Rodillera_L_GRP
+      parentName: Soldado3y4_Rig_M1:Soldier4_GEO_GRP
+      position: {x: -0.17517154, y: 0.60011035, z: 0.018109573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Correa_L_GEO 1
+      parentName: Soldado3y4_Rig_M1:Soldier4_Rodillera_L_GRP
+      position: {x: 0.17517154, y: -0.60011035, z: -0.018109573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Knee_Plate_L_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Rodillera_L_GRP
+      position: {x: 0.17517154, y: -0.60011035, z: -0.018109573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Plate1_L_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Rodillera_L_GRP
+      position: {x: 0.17517154, y: -0.60011035, z: -0.018109573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Plate3_L_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Rodillera_L_GRP
+      position: {x: 0.17517154, y: -0.60011035, z: -0.018109573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Boots_GRP
+      parentName: Soldado3y4_Rig_M1:Soldier4_GEO_GRP
+      position: {x: -0, y: 0.14057556, z: 0.10590014}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Boot_R_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Boots_GRP
+      position: {x: -0, y: -0.14057556, z: -0.10590014}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado3y4_Rig_M1:Soldier4_Boot_L_GEO
+      parentName: Soldado3y4_Rig_M1:Soldier4_Boots_GRP
+      position: {x: -0, y: -0.14057556, z: -0.10590014}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

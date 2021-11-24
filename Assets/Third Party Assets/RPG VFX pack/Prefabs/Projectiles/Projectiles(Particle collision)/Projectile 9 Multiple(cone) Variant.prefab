@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3887302336052892626
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1300573103503756, guid: 1c48df1cb0f3d824c8041c90c684038b, type: 3}
+      propertyPath: m_Name
+      value: Projectile 9 Multiple(cone) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603611077099896, guid: 1c48df1cb0f3d824c8041c90c684038b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603611077099896, guid: 1c48df1cb0f3d824c8041c90c684038b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603611077099896, guid: 1c48df1cb0f3d824c8041c90c684038b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603611077099896, guid: 1c48df1cb0f3d824c8041c90c684038b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603611077099896, guid: 1c48df1cb0f3d824c8041c90c684038b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603611077099896, guid: 1c48df1cb0f3d824c8041c90c684038b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603611077099896, guid: 1c48df1cb0f3d824c8041c90c684038b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603611077099896, guid: 1c48df1cb0f3d824c8041c90c684038b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603611077099896, guid: 1c48df1cb0f3d824c8041c90c684038b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603611077099896, guid: 1c48df1cb0f3d824c8041c90c684038b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603611077099896, guid: 1c48df1cb0f3d824c8041c90c684038b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198565110370433080, guid: 1c48df1cb0f3d824c8041c90c684038b,
+        type: 3}
+      propertyPath: ShapeModule.type
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 198565110370433080, guid: 1c48df1cb0f3d824c8041c90c684038b,
+        type: 3}
+      propertyPath: ShapeModule.angle
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 198565110370433080, guid: 1c48df1cb0f3d824c8041c90c684038b,
+        type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 198565110370433080, guid: 1c48df1cb0f3d824c8041c90c684038b,
+        type: 3}
+      propertyPath: ShapeModule.arc.mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 198565110370433080, guid: 1c48df1cb0f3d824c8041c90c684038b,
+        type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198565110370433080, guid: 1c48df1cb0f3d824c8041c90c684038b,
+        type: 3}
+      propertyPath: ShapeModule.arc.spread
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 198565110370433080, guid: 1c48df1cb0f3d824c8041c90c684038b,
+        type: 3}
+      propertyPath: ShapeModule.alignToDirection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198565110370433080, guid: 1c48df1cb0f3d824c8041c90c684038b,
+        type: 3}
+      propertyPath: ShapeModule.m_Scale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198565110370433080, guid: 1c48df1cb0f3d824c8041c90c684038b,
+        type: 3}
+      propertyPath: ShapeModule.m_Scale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198565110370433080, guid: 1c48df1cb0f3d824c8041c90c684038b,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 198565110370433080, guid: 1c48df1cb0f3d824c8041c90c684038b,
+        type: 3}
+      propertyPath: simulationSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c48df1cb0f3d824c8041c90c684038b, type: 3}

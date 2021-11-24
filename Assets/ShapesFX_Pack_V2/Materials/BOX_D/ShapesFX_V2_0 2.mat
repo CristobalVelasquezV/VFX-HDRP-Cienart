@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShapesFX_V2_0 2
+  m_Shader: {fileID: 4800000, guid: 09aff5e44fd97204db725d7a04792026, type: 3}
+  m_ShaderKeywords: _ACTIVATELINES_ON _SLICESDISPLACEMENT_ON _SLICESROTATION_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Diffuse_map:
+        m_Texture: {fileID: 2800000, guid: f4273b18f4b08f74d9817991a23a23d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrontFace_Diffuse_map1:
+        m_Texture: {fileID: 2800000, guid: d8cfe409d2fb65842a7151f63c8307c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_map:
+        m_Texture: {fileID: 2800000, guid: c8d76e9735c91554cab1cf0f7c711a8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: c8d76e9735c91554cab1cf0f7c711a8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AberationChromMult: 0
+    - _AberationChromMultSurface: 0
+    - _AberationColorExtra: 0
+    - _ActivateLines: 1
+    - _AlphaCutoff: 0.5
+    - _ColorMult: 0
+    - _Cutoff: 0.5
+    - _DisplacementSmoothHard: 0
+    - _DisplacementSmoothHard1: 1
+    - _DisplacementSmoothness: 0
+    - _Float12: 1
+    - _Float14: 50
+    - _Float3: 0
+    - _Float7: 0.11
+    - _InteriorColorMult: 0
+    - _InteriorMult: 0
+    - _LinesColorMult: 90.7
+    - _Lines_Push: 2.9
+    - _MaskTling: 1
+    - _Outline_Color_Mult: 38.6
+    - _Panner_X: 1
+    - _Panner_Y: 0
+    - _RotationMult: 0.92
+    - _SlicesDisplacement: 1
+    - _SlicesRotation: 1
+    - _SlicesRotationMult: 0.5
+    - _ToggleSwitch0: 0
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.1
+    - _TransScattering: 2
+    - _TransShadow: 0.9
+    - _Translucency: 1
+    - __dirty: 0
+    - _test: 1
+    - _test2: 1
+    m_Colors:
+    - _Color0: {r: 1.058148, g: 0.26672402, b: 0, a: 0}
+    - _DiffuseColorMult: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LinesColor: {r: 0, g: 0.030094787, b: 1.7753901, a: 0}
+    - _MainColor: {r: 1.329802, g: 0.06266081, b: 0, a: 0}
+    - _MaskColor: {r: 2.8634226, g: 0, b: 0.07847694, a: 0}
+    - _Outline_Color: {r: 1.3740247, g: 0.59377253, b: 0, a: 0}
+    - _Vector1: {r: -1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

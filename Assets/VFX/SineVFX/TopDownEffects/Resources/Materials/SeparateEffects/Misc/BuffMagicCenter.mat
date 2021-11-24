@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7918410331160293263
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 11
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BuffMagicCenter
+  m_Shader: {fileID: -6465566751694194690, guid: 23514104079acab47a8589c480f3b606, type: 3}
+  m_ShaderKeywords: _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _FRESNELMASKENABLED_ON
+    _RAMPENABLED_ON _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    MotionVector: User
+    RenderType: Transparent
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolveTexture:
+        m_Texture: {fileID: 2800000, guid: 7946756a0d414f759c470943148ed64a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainMask:
+        m_Texture: {fileID: 2800000, guid: 7f224f8be0b34951b521c5e3b684ba1a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: b0683776dbc5dd943a0985ce49914859, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask01:
+        m_Texture: {fileID: 2800000, guid: b0683776dbc5dd943a0985ce49914859, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask02:
+        m_Texture: {fileID: 2800000, guid: 9c1d7c74d0c1d8d419d524dea61f5a9a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask02Distortion:
+        m_Texture: {fileID: 2800000, guid: 36fb71d46b354a9aa19192111857ff83, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskLifetime:
+        m_Texture: {fileID: 2800000, guid: a68bbabd27964f4a98abff36df8c4923, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskLifetimeDistortion:
+        m_Texture: {fileID: 2800000, guid: 441d8bb42833455b8b10dd26ce59fffd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskRG:
+        m_Texture: {fileID: 2800000, guid: 7f224f8be0b34951b521c5e3b684ba1a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise01:
+        m_Texture: {fileID: 2800000, guid: 381971b998464a3b89560a23153e6212, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise01Distortion:
+        m_Texture: {fileID: 2800000, guid: 8a64792244984b3f9279166768bee611, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 77d572dd0bfeb9f4dae4cf9e7c9cec6b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondMask:
+        m_Texture: {fileID: 2800000, guid: a9dfce9801058b84e817ebcc86c665b7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondMaskDistortion:
+        m_Texture: {fileID: 2800000, guid: 441d8bb42833455b8b10dd26ce59fffd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 8a3443714a5e4981b178a25bf72d8a98, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AddPrecomputedVelocity: 0
+    - _AlphaCutoff: 0.5
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 10
+    - _AlphaSrcBlend: 1
+    - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
+    - _BlendMode: 0
+    - _CameraDepthFadeEnabled: 1
+    - _CameraDepthFadeLength: 1
+    - _CameraDepthFadeOffset: 0
+    - _CullMode: 0
+    - _CullModeForward: 0
+    - _DepthOffsetEnable: 0
+    - _DissolveTextureRemapMax: 0.75
+    - _DissolveTextureScaleU: 1
+    - _DissolveTextureScaleV: 1
+    - _DoubleSidedEnable: 1
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 10
+    - _EnableBlendModePreserveSpecularLighting: 0
+    - _EnableFogOnTransparent: 1
+    - _FRESNELMASKENABLED: 1
+    - _FinalOpacityExp: 1
+    - _FinalOpacityPower: 3.7
+    - _FinalPower: 129
+    - _FlipAnimation: 0
+    - _FlipUV: 0
+    - _Float0: 0.57
+    - _Float1: 0.88
+    - _Float2: 0.2
+    - _FresnelMaskPower: 1
+    - _FresnelMaskScale: 1
+    - _MAINMASKCHANNELSADDORMULTIPLY: 1
+    - _Mask02DistortionPower: 0
+    - _Mask02Stretch: 1
+    - _MaskLifetimeCustomProgress: 0
+    - _MaskLifetimeCustomProgressEnabled: 0
+    - _MaskLifetimeDistortionPower: 0.125
+    - _MaskLifetimeDistortionRemapMax: 0.75
+    - _MaskLifetimeDistortionRemapMin: -0.25
+    - _MaskLifetimeStretch: 1
+    - _Noise01DistortionPower: 0
+    - _Noise01DistortionScaleU: 1
+    - _Noise01DistortionScaleV: 1
+    - _Noise01Negate: 0
+    - _Noise01ScaleU: 1
+    - _Noise01ScaleV: 1
+    - _Noise01ScrollSpeed: 0
+    - _OpacityPower: 2
+    - _OpaqueCullMode: 2
+    - _RAMPAFFECTEDBYVERTEXCOLOR: 1
+    - _RAMPENABLED: 1
+    - _RampOffsetExp: 2
+    - _RampOffsetMultiply: 4
+    - _RampTilingPower: 4
+    - _ReceivesSSR: 0
+    - _RenderQueueType: 4
+    - _RequireSplitLighting: 0
+    - _SECONDMASKFLIPANIMATION: 0
+    - _SECONDMASKFLIPUV: 0
+    - _SOFTPARTICLESENABLED: 1
+    - _SecondMaskDirectionSwitch: 0
+    - _SecondMaskDirectionU: 0
+    - _SecondMaskDirectionV: 1
+    - _SecondMaskDistortionAmount: 0
+    - _SecondMaskDistortionRemapMax: 0.75
+    - _SecondMaskDistortionRemapMin: -0.25
+    - _SecondMaskDistortionScaleU: 1
+    - _SecondMaskDistortionScaleV: 1
+    - _SecondMaskLifetimeStretch: 0.942
+    - _SecondMaskRotation: 0
+    - _SoftParticleDistance: 1
+    - _SoftParticleExp: 2
+    - _SoftParticlesDistance: 1
+    - _SoftParticlesExp: 2
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 0
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 2
+    - _StencilRefMV: 32
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
+    - _SurfaceType: 1
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _UseShadowThreshold: 0
+    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 0
+    - __dirty: 0
+    m_Colors:
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FinalColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainMaskChannelsAdd: {r: 0, g: 0, b: 1, a: 1}
+    - _MainMaskChannelsMultiply: {r: 1, g: 1, b: 0, a: 0}
+    - _RampColorTint: {r: 0.4619084, g: 0.15263437, b: 0.9245283, a: 1}
+  m_BuildTextureStacks: []

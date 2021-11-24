@@ -1,0 +1,1432 @@
+fileFormatVersion: 2
+guid: 730290290b4129b4a9f4b61ca488ff8a
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -4853606900279862735
+    second: Felsen_Basic_Attack_v9
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Felsen_Rig_v2_Armadura2_blin1
+    second: {fileID: 2100000, guid: b6991fb6c3f5a334ca68f12c17aeab08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Felsen_Rig_v2_Armadura2_blin2
+    second: {fileID: 2100000, guid: a435cde144e9f584e967b887f775722d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Felsen_Rig_v2_Armadura_blin1
+    second: {fileID: 2100000, guid: c666cf5d2a896594999890d1ac6ad647, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Felsen_Rig_v2_Felese_retopo_mate1
+    second: {fileID: 2100000, guid: 01e1cd98704023b489bc4983ee273557, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Felsen_Rig_v2_Pelo_blin1
+    second: {fileID: 2100000, guid: 8dd4f8c489f8e0d4bb9b2a5da5044ae3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Felsen_Rig_v2_blinn3
+    second: {fileID: 2100000, guid: 2cb889144ec24fe4795f816cd0ea9117, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Felsen_Rig_v2_lambert23
+    second: {fileID: 2100000, guid: cf60515342ddac54f8011401b7488a18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Felsen_Rig_v2_lambert25
+    second: {fileID: 2100000, guid: 6171bb233cebd1a4c897e42f3db891e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1
+    second: {fileID: 2100000, guid: 4f883566a7fd5a14c9875189db562c55, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Felsen_Basic_Attack_v9' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Felsen_Rig_v2:Spine_01' has
+      translation animation that will be discarded.\n\t'Felsen_Rig_v2:Elbow_L' has
+      translation animation that will be discarded.\n\t'Felsen_Rig_v2:Elbow_R' has
+      translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Felsen_Basic_Attack_v9
+      takeName: Felsen_Basic_Attack_v9
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.118485875
+        functionName: EnableVFX
+        data: 
+        objectReferenceParameter: {fileID: 8031246404992043132, guid: bf65adc3278245c478d4e522cc30b4de,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.28921568
+        functionName: ActivatePS
+        data: 
+        objectReferenceParameter: {fileID: 8031246404992043132, guid: bf65adc3278245c478d4e522cc30b4de,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.50705564
+        functionName: DisableVFX
+        data: 
+        objectReferenceParameter: {fileID: 8031246404992043132, guid: bf65adc3278245c478d4e522cc30b4de,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Felsen_Rig_v2:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:UpperLeg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:UpperLeg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:LowerLeg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:LowerLeg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Spine_01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Spine_02
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Clavicle_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Clavicle_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Shoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Shoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Ball_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Ball_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:MainFleco_Joint13
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Fleco2_Fleco2_joint18
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Facemask_JNT
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Thumb_01
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Thumb_02
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:IndexFinger_01
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:IndexFinger_02
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:IndexFinger_03
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Finger_01
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Finger_02
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Finger_03
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Thumb_04
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Thumb_05
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:IndexFinger_05
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:IndexFinger_06
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:IndexFinger_07
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Finger_05
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Finger_06
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Finger_07
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Felsen_Rig_v2:Spine_03
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Felsen_Basic_Attack_v9(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:ROOT
+      parentName: Felsen_Basic_Attack_v9(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1203854, y: 1.1203854, z: 1.1203854}
+    - name: Felsen_Rig_v2:Hips
+      parentName: Felsen_Rig_v2:ROOT
+      position: {x: 0.00036241257, y: 1.0568926, z: -0.11838028}
+      rotation: {x: 0.4611367, y: -0.53605324, z: -0.4611367, w: 0.5360531}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000001}
+    - name: Felsen_Rig_v2:UpperLeg_R
+      parentName: Felsen_Rig_v2:Hips
+      position: {x: 0.035228107, y: 0.007234576, z: -0.14764243}
+      rotation: {x: 0.04431203, y: 0.72950065, z: -0.6797292, w: -0.06191495}
+      scale: {x: 1.0000015, y: 1.0000008, z: 1.0000014}
+    - name: Felsen_Rig_v2:LowerLeg_R
+      parentName: Felsen_Rig_v2:UpperLeg_R
+      position: {x: -0.45865184, y: 0.0039676945, z: -0.06667246}
+      rotation: {x: 0.6443777, y: 0.024462732, z: -0.0047376454, w: 0.76430136}
+      scale: {x: 0.99999994, y: 1.0000011, z: 1.0000014}
+    - name: Felsen_Rig_v2:Ankle_R
+      parentName: Felsen_Rig_v2:LowerLeg_R
+      position: {x: -0.47430447, y: 0.05962875, z: 0.016387852}
+      rotation: {x: -0.85387135, y: -0.5059015, z: -0.058430426, w: 0.10748585}
+      scale: {x: 1.0000011, y: 1, z: 1.0000006}
+    - name: Felsen_Rig_v2:Ball_R
+      parentName: Felsen_Rig_v2:Ankle_R
+      position: {x: -0.15390684, y: 0.018991325, z: 0.00000014753755}
+      rotation: {x: -0.07336288, y: -0.011131763, z: -0.26927155, w: 0.9602015}
+      scale: {x: 1.0000006, y: 0.9999996, z: 1.0000004}
+    - name: Felsen_Rig_v2:Toes_R
+      parentName: Felsen_Rig_v2:Ball_R
+      position: {x: -0.11152316, y: 0.0000000054557683, z: 0.00000014396007}
+      rotation: {x: -0.000000021846713, y: -0.7071062, z: -0.000000021846672, w: 0.7071075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Spine_01
+      parentName: Felsen_Rig_v2:Hips
+      position: {x: -0.18703748, y: 0.012557814, z: 9.835746e-10}
+      rotation: {x: -0.99501973, y: 0.09967893, z: 0.000000059604645, w: -0.00000008940697}
+      scale: {x: 1.0000008, y: 1, z: 1.0000005}
+    - name: Felsen_Rig_v2:Spine_02
+      parentName: Felsen_Rig_v2:Spine_01
+      position: {x: -0.18151169, y: -2.3561683e-10, z: 2.0021549e-11}
+      rotation: {x: 0.9951862, y: -0.09800273, z: -0.00000003574139, w: -0.000000027228788}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000006}
+    - name: Felsen_Rig_v2:Spine_03
+      parentName: Felsen_Rig_v2:Spine_02
+      position: {x: -0.19744731, y: 0.09405999, z: -0.0000000012888033}
+      rotation: {x: -0.9917548, y: 0.1281505, z: -0.000000051765067, w: -0.000000026387417}
+      scale: {x: 1.000001, y: 1.0000008, z: 1.0000001}
+    - name: Felsen_Rig_v2:Neck
+      parentName: Felsen_Rig_v2:Spine_03
+      position: {x: -0.071185015, y: 0.04951444, z: -2.842171e-16}
+      rotation: {x: 0.000000026200901, y: -0.000000021699377, z: 0.041733418, w: 0.9991288}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000006}
+    - name: Felsen_Rig_v2:Head
+      parentName: Felsen_Rig_v2:Neck
+      position: {x: -0.09312795, y: -0.010897524, z: 0.000000005725316}
+      rotation: {x: 0.4585709, y: -0.53824973, z: 0.45857093, w: 0.5382496}
+      scale: {x: 1, y: 0.9999998, z: 1.0000005}
+    - name: Felsen_Rig_v2:Hair_transform
+      parentName: Felsen_Rig_v2:Head
+      position: {x: 1.4944541e-14, y: -1.8235251, z: -0.07264066}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.89255005, y: 0.89255005, z: 0.89255005}
+    - name: Felsen_Rig_v2:HairRoot_JNT
+      parentName: Felsen_Rig_v2:Hair_transform
+      position: {x: -0, y: 2.3957283, z: 0.058956623}
+      rotation: {x: 0.2653776, y: -0.6554194, z: -0.2653777, w: 0.6554195}
+      scale: {x: 1.0000045, y: 1.0000004, z: 1.000004}
+    - name: Felsen_Rig_v2:Fleco2_Fleco2_joint18
+      parentName: Felsen_Rig_v2:HairRoot_JNT
+      position: {x: 0.049648166, y: 0.3596387, z: -0.025095794}
+      rotation: {x: -0.18422061, y: 0.7409038, z: -0.32412335, w: -0.55863094}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Felsen_Rig_v2:Fleco2_Fleco2_joint14
+      parentName: Felsen_Rig_v2:Fleco2_Fleco2_joint18
+      position: {x: -0.17471313, y: -2.2369988e-10, z: -0.0000000013487349}
+      rotation: {x: 0.09988726, y: 0.199647, z: 0.17629804, w: 0.958688}
+      scale: {x: 1.0000007, y: 0.99999994, z: 1.0000006}
+    - name: Felsen_Rig_v2:Fleco2_Fleco2_joint15
+      parentName: Felsen_Rig_v2:Fleco2_Fleco2_joint14
+      position: {x: -0.21101606, y: -0.0000000012686325, z: -0.0000000065799193}
+      rotation: {x: 0.13419008, y: 0.09929865, z: 0.28002113, w: 0.9453682}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000005}
+    - name: Felsen_Rig_v2:Fleco2_Fleco2_joint16
+      parentName: Felsen_Rig_v2:Fleco2_Fleco2_joint15
+      position: {x: -0.20422658, y: 1.1204477e-10, z: 1.357148e-10}
+      rotation: {x: -0.9416036, y: -0.23548044, z: -0.024994379, w: -0.23938875}
+      scale: {x: 1.0000004, y: 0.99999994, z: 0.99999946}
+    - name: Felsen_Rig_v2:MainFleco_Joint13
+      parentName: Felsen_Rig_v2:HairRoot_JNT
+      position: {x: 0.10485748, y: 0.34376383, z: 0.090990275}
+      rotation: {x: -0.084704556, y: 0.7918432, z: -0.3721991, w: -0.47673607}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: Felsen_Rig_v2:MainFleco_Joint14
+      parentName: Felsen_Rig_v2:MainFleco_Joint13
+      position: {x: -0.2022958, y: 1.6484591e-14, z: -2.8563818e-14}
+      rotation: {x: 0.15504676, y: 0.22612724, z: 0.04299987, w: 0.96071744}
+      scale: {x: 1.0000008, y: 1.0000001, z: 1.0000004}
+    - name: Felsen_Rig_v2:MainFleco_Joint15
+      parentName: Felsen_Rig_v2:MainFleco_Joint14
+      position: {x: -0.21101606, y: -5.144383e-10, z: -0.000000003876602}
+      rotation: {x: 0.13419028, y: 0.099298716, z: 0.28002098, w: 0.94536823}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: Felsen_Rig_v2:MainFleco_Joint16
+      parentName: Felsen_Rig_v2:MainFleco_Joint15
+      position: {x: -0.20422658, y: 0.0000000070291466, z: 0.0000000070001027}
+      rotation: {x: -0.94160354, y: -0.2354807, z: -0.024994388, w: -0.23938876}
+      scale: {x: 1.0000002, y: 0.9999998, z: 0.9999998}
+    - name: Felsen_Rig_v2:MainFleco_Joint17
+      parentName: Felsen_Rig_v2:MainFleco_Joint16
+      position: {x: -0.21457423, y: 3.5527136e-17, z: 4.973799e-16}
+      rotation: {x: -0.043574516, y: -0.05019766, z: -0.6540808, w: 0.7534983}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Felsen_Rig_v2:PonyTailBone_Joint1
+      parentName: Felsen_Rig_v2:HairRoot_JNT
+      position: {x: -0.3367484, y: 0.000000019935516, z: -3.570205e-10}
+      rotation: {x: -0.00000007450579, y: -0.000000029802315, z: 0.05267367, w: 0.9986118}
+      scale: {x: 1.0000032, y: 1.0000013, z: 1.0000035}
+    - name: Felsen_Rig_v2:PonyTailBone_Joint2
+      parentName: Felsen_Rig_v2:PonyTailBone_Joint1
+      position: {x: -0.1849362, y: 0.0000000028928824, z: -6.053733e-10}
+      rotation: {x: 0.000000109216295, y: 0.000000009661302, z: 0.18629278, w: 0.9824943}
+      scale: {x: 1.000001, y: 0.9999997, z: 1.0000007}
+    - name: Felsen_Rig_v2:PonyTailBone_Joint3
+      parentName: Felsen_Rig_v2:PonyTailBone_Joint2
+      position: {x: -0.22198126, y: -0.0000000048866426, z: -4.891854e-10}
+      rotation: {x: 0.000000006808852, y: -0.000000110699915, z: 0.4463926, w: 0.8948372}
+      scale: {x: 1.0000011, y: 0.999999, z: 1.0000002}
+    - name: Felsen_Rig_v2:PonyTailBone_Joint4
+      parentName: Felsen_Rig_v2:PonyTailBone_Joint3
+      position: {x: -0.27709988, y: 0.000000023196755, z: -0.0000000024309068}
+      rotation: {x: 0.00000009226451, y: 0.000000056854923, z: 0.3715009, w: 0.9284326}
+      scale: {x: 1.0000013, y: 0.99999994, z: 1.0000004}
+    - name: Felsen_Rig_v2:PonyTailBone_Joint5
+      parentName: Felsen_Rig_v2:PonyTailBone_Joint4
+      position: {x: -0.2789947, y: -0.000000004799567, z: 3.0780964e-10}
+      rotation: {x: 0.9359365, y: 0.352169, z: -0.000000113170856, w: 0.000000044323357}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000001}
+    - name: Felsen_Rig_v2:PonyTailBone_Joint6
+      parentName: Felsen_Rig_v2:PonyTailBone_Joint5
+      position: {x: -0.2534642, y: 0.000000005252155, z: -3.0892167e-10}
+      rotation: {x: 0.000000049750444, y: 0.000000054449416, z: -0.025376702, w: 0.999678}
+      scale: {x: 1.0000005, y: 1, z: 1.0000004}
+    - name: Felsen_Rig_v2:PonyTailBone_Joint7
+      parentName: Felsen_Rig_v2:PonyTailBone_Joint6
+      position: {x: -0.22972155, y: -0.000000017044215, z: -9.002236e-10}
+      rotation: {x: -0.000000018260193, y: 0.00000006385083, z: 0.16526137, w: 0.98624986}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: Felsen_Rig_v2:PonyTailBone_Joint8
+      parentName: Felsen_Rig_v2:PonyTailBone_Joint7
+      position: {x: -0.1981531, y: -0.000000012955953, z: -5.158246e-10}
+      rotation: {x: -0.9682879, y: -0.24983734, z: 0.000000009840386, w: 0.000000009945023}
+      scale: {x: 1.0000002, y: 0.9999997, z: 0.9999997}
+    - name: Felsen_Rig_v2:PonyTailBone_Joint9
+      parentName: Felsen_Rig_v2:PonyTailBone_Joint8
+      position: {x: -0.18122186, y: 0.000000016100252, z: 5.389473e-10}
+      rotation: {x: -0.000000048208058, y: 0.000000055584632, z: -0.31702048, w: 0.9484187}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1.0000001}
+    - name: Felsen_Rig_v2:PonyTailBone_Joint10
+      parentName: Felsen_Rig_v2:PonyTailBone_Joint9
+      position: {x: -0.12599438, y: 0.000000008664734, z: 4.6616677e-10}
+      rotation: {x: 0.0000000045008455, y: 0.00000005589645, z: -0.501087, w: 0.8653969}
+      scale: {x: 1.0000005, y: 1, z: 1}
+    - name: Felsen_Rig_v2:PonyTailBone_Joint11
+      parentName: Felsen_Rig_v2:PonyTailBone_Joint10
+      position: {x: -0.08537767, y: 0.0000000020256292, z: -1.9312504e-10}
+      rotation: {x: 0.000000067614735, y: -0.00000007598917, z: -0.43084016, w: 0.9024283}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: Felsen_Rig_v2:PonyTailBone_Joint12
+      parentName: Felsen_Rig_v2:PonyTailBone_Joint11
+      position: {x: -0.06928365, y: -2.3309905e-16, z: 4.681464e-18}
+      rotation: {x: -0.41510877, y: 0.5724375, z: 0.41510877, w: 0.5724375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:transform6
+      parentName: Felsen_Rig_v2:Head
+      position: {x: 1.4944541e-14, y: -1.8235251, z: -0.07264066}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.89255005, y: 0.89255005, z: 0.89255005}
+    - name: Felsen_Rig_v2:Facemask_JNT
+      parentName: Felsen_Rig_v2:transform6
+      position: {x: -1.3162804e-14, y: 2.1370864, z: 0.3751457}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Clavicle_L
+      parentName: Felsen_Rig_v2:Spine_03
+      position: {x: -0.03662269, y: 0.069782525, z: -0.16709752}
+      rotation: {x: 0.629837, y: -0.5952525, z: 0.2575011, w: 0.42740273}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: Felsen_Rig_v2:Shoulder_L
+      parentName: Felsen_Rig_v2:Clavicle_L
+      position: {x: -0.11136839, y: -0.083294965, z: 0.07981021}
+      rotation: {x: 0.031619743, y: 0.26529604, z: 0.11962716, w: 0.9561943}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1.0000002}
+    - name: Felsen_Rig_v2:Elbow_L
+      parentName: Felsen_Rig_v2:Shoulder_L
+      position: {x: -0.3903919, y: 0.03285867, z: -0.009462405}
+      rotation: {x: 0.0016208993, y: 0.03634124, z: -0.03669323, w: 0.99866426}
+      scale: {x: 0.9999996, y: 0.9999998, z: 0.99999946}
+    - name: Felsen_Rig_v2:ShieldGRP_JNT
+      parentName: Felsen_Rig_v2:Elbow_L
+      position: {x: -0.38095993, y: 0.108669125, z: -0.08014123}
+      rotation: {x: 0, y: -0.035830773, z: -0, w: 0.9993579}
+      scale: {x: 0.89255005, y: 0.89255005, z: 0.89255005}
+    - name: Felsen_Rig_v2:Shield_JNT
+      parentName: Felsen_Rig_v2:ShieldGRP_JNT
+      position: {x: -0, y: -0.00000015258789, z: -0.00000020503997}
+      rotation: {x: -0.00000004481225, y: 0.00000013411042, z: -0.000000011979878,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.9999997, z: 1.0000011}
+    - name: Felsen_Rig_v2:Hand_L
+      parentName: Felsen_Rig_v2:Elbow_L
+      position: {x: -0.44894594, y: 1.8451232e-11, z: -0.0066136424}
+      rotation: {x: -0.0000008167698, y: -0.03583066, z: -0.000000021053891, w: 0.99935794}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Felsen_Rig_v2:Thumb_01
+      parentName: Felsen_Rig_v2:Hand_L
+      position: {x: -0.074128255, y: -0.02750256, z: 0.10159901}
+      rotation: {x: 0.2412995, y: 0.054599263, z: -0.06171027, w: 0.96694636}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: Felsen_Rig_v2:Thumb_02
+      parentName: Felsen_Rig_v2:Thumb_01
+      position: {x: -0.04169805, y: 0.0051259673, z: 0.039208066}
+      rotation: {x: 0.02969357, y: 0.18476187, z: -0.090408675, w: 0.9781654}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000004}
+    - name: Felsen_Rig_v2:Thumb_03
+      parentName: Felsen_Rig_v2:Thumb_02
+      position: {x: -0.08190152, y: -0.0018603307, z: 0.02485783}
+      rotation: {x: -0.036403257, y: -0.15203469, z: -0.22999534, w: 0.9605532}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:IndexFinger_01
+      parentName: Felsen_Rig_v2:Hand_L
+      position: {x: -0.19335659, y: 0.05154867, z: 0.06713703}
+      rotation: {x: 0.000069022804, y: 0.1414359, z: 0.0065555675, w: 0.9899257}
+      scale: {x: 1.000001, y: 0.9999992, z: 1.0000002}
+    - name: Felsen_Rig_v2:IndexFinger_02
+      parentName: Felsen_Rig_v2:IndexFinger_01
+      position: {x: -0.07162542, y: 0.00031805786, z: -0.009486924}
+      rotation: {x: -0.0011540689, y: -0.0107416, z: 0.0983299, w: 0.99509525}
+      scale: {x: 0.9999999, y: 1.000001, z: 0.9999998}
+    - name: Felsen_Rig_v2:IndexFinger_03
+      parentName: Felsen_Rig_v2:IndexFinger_02
+      position: {x: -0.065251544, y: 0.01120439, z: -0.008278769}
+      rotation: {x: -0.0069121756, y: -0.025717417, z: 0.057002325, w: 0.99801886}
+      scale: {x: 1.0000006, y: 0.9999998, z: 1}
+    - name: Felsen_Rig_v2:IndexFinger_04
+      parentName: Felsen_Rig_v2:IndexFinger_03
+      position: {x: -0.07258141, y: 0.024022324, z: -0.004348102}
+      rotation: {x: -0.004519649, y: -0.028039929, z: -0.15906802, w: 0.986859}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Finger_01
+      parentName: Felsen_Rig_v2:Hand_L
+      position: {x: -0.1748318, y: 0.037091255, z: -0.034517523}
+      rotation: {x: 0.004481133, y: 0.018956956, z: 0.07177116, w: 0.9972309}
+      scale: {x: 1.000001, y: 0.9999991, z: 1.0000001}
+    - name: Felsen_Rig_v2:Finger_02
+      parentName: Felsen_Rig_v2:Finger_01
+      position: {x: -0.05357257, y: 0.0060908813, z: 0.006338092}
+      rotation: {x: 0.0026372375, y: 0.01949202, z: 0.02126932, w: 0.99958026}
+      scale: {x: 0.99999994, y: 1.0000007, z: 0.9999999}
+    - name: Felsen_Rig_v2:Finger_03
+      parentName: Felsen_Rig_v2:Finger_02
+      position: {x: -0.06523721, y: 0.010244255, z: 0.0032110359}
+      rotation: {x: -0.018149167, y: -0.071478955, z: 0.09251085, w: 0.99297696}
+      scale: {x: 1.0000002, y: 1.0000006, z: 0.99999994}
+    - name: Felsen_Rig_v2:Finger_04
+      parentName: Felsen_Rig_v2:Finger_03
+      position: {x: -0.0827086, y: 0.029401617, z: 0.01744807}
+      rotation: {x: 0.01664637, y: 0.096525334, z: -0.16913006, w: 0.98071444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Clavicle_R
+      parentName: Felsen_Rig_v2:Spine_03
+      position: {x: -0.036622956, y: 0.06978254, z: 0.16709724}
+      rotation: {x: -0.8699872, y: -0.033256013, z: -0.11517407, w: 0.4782795}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: Felsen_Rig_v2:Shoulder_R
+      parentName: Felsen_Rig_v2:Clavicle_R
+      position: {x: 0.08309958, y: -0.10944622, z: -0.082623005}
+      rotation: {x: 0.27154204, y: -0.019055331, z: 0.11167932, w: 0.955735}
+      scale: {x: 1.0000011, y: 1.0000011, z: 1.0000021}
+    - name: Felsen_Rig_v2:Elbow_R
+      parentName: Felsen_Rig_v2:Shoulder_R
+      position: {x: -0.024061527, y: -0.39137384, z: 0.00863707}
+      rotation: {x: 0.036474477, y: -0.0013210227, z: -0.023847789, w: 0.9990491}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000008}
+    - name: Felsen_Rig_v2:Hand_R
+      parentName: Felsen_Rig_v2:Elbow_R
+      position: {x: -0.0019396892, y: -0.44878376, z: 0.006602254}
+      rotation: {x: -0.035830535, y: 0.00013418279, z: -0.00057807565, w: 0.99935776}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Felsen_Rig_v2:transform5
+      parentName: Felsen_Rig_v2:Hand_R
+      position: {x: 1.6192671, y: 1.1389601, z: 0.057191737}
+      rotation: {x: -0.7059869, y: 0.70822495, z: 3.5898083e-14, w: -3.5784645e-14}
+      scale: {x: 0.89255005, y: 0.89255005, z: 0.89255005}
+    - name: Felsen_Rig_v2:Sword_GRP_JNT
+      parentName: Felsen_Rig_v2:Hand_R
+      position: {x: 0.025797423, y: -0.14852355, z: -0.049772553}
+      rotation: {x: -0.7059869, y: 0.70822495, z: 3.5898083e-14, w: -3.5784645e-14}
+      scale: {x: 0.89255005, y: 0.89255005, z: 0.89255005}
+    - name: Felsen_Rig_v2:Sword_JNT
+      parentName: Felsen_Rig_v2:Sword_GRP_JNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.23816745, y: -0.00000006705521, z: 0.00000005960463, w: -0.9712242}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Felsen_Rig_v2:Thumb_04
+      parentName: Felsen_Rig_v2:Hand_R
+      position: {x: 0.029576303, y: -0.05136926, z: -0.07906294}
+      rotation: {x: -0.08268065, y: -0.8439434, z: -0.22060592, w: 0.48192987}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000011}
+    - name: Felsen_Rig_v2:Thumb_05
+      parentName: Felsen_Rig_v2:Thumb_04
+      position: {x: -0.0598988, y: -0.06907732, z: -0.01366055}
+      rotation: {x: 0.010395807, y: -0.024294997, z: -0.22385807, w: 0.9742635}
+      scale: {x: 1.0000004, y: 1.0000005, z: 0.99999946}
+    - name: Felsen_Rig_v2:Thumb_06
+      parentName: Felsen_Rig_v2:Thumb_05
+      position: {x: -0.024551656, y: -0.08191114, z: -0.0041101505}
+      rotation: {x: 0.0035446472, y: 0.009625891, z: 0.007899453, w: 0.9999162}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:IndexFinger_05
+      parentName: Felsen_Rig_v2:Hand_R
+      position: {x: -0.03905183, y: -0.18164165, z: -0.067890935}
+      rotation: {x: -0.13567385, y: -0.002239913, z: 0.006238938, w: -0.9907314}
+      scale: {x: 1.0000011, y: 1.0000002, z: 1.000001}
+    - name: Felsen_Rig_v2:IndexFinger_06
+      parentName: Felsen_Rig_v2:IndexFinger_05
+      position: {x: -0.000671472, y: -0.08636256, z: 0.011439148}
+      rotation: {x: 0.010751632, y: -0.0010569118, z: -0.08670367, w: -0.99617565}
+      scale: {x: 0.99999946, y: 1.0000005, z: 0.99999964}
+    - name: Felsen_Rig_v2:IndexFinger_07
+      parentName: Felsen_Rig_v2:IndexFinger_06
+      position: {x: -0.009851438, y: -0.06546906, z: 0.008278668}
+      rotation: {x: -0.025842452, y: 0.006428757, z: 0.058954917, w: 0.99790543}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: Felsen_Rig_v2:IndexFinger_08
+      parentName: Felsen_Rig_v2:IndexFinger_07
+      position: {x: -0.022800254, y: -0.07297515, z: 0.004348136}
+      rotation: {x: 0.010008598, y: -0.013127802, z: -0.013274175, w: 0.99977565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Finger_05
+      parentName: Felsen_Rig_v2:Hand_R
+      position: {x: -0.0399002, y: -0.1741587, z: 0.03103498}
+      rotation: {x: 0.03512117, y: -0.0035942441, z: 0.055708207, w: 0.99782276}
+      scale: {x: 1.0000011, y: 1.0000004, z: 1.000001}
+    - name: Felsen_Rig_v2:Finger_06
+      parentName: Felsen_Rig_v2:Finger_05
+      position: {x: -0.0056190244, y: -0.060702737, z: -0.0053741815}
+      rotation: {x: 0.019524677, y: -0.0023818787, z: 0.029077917, w: 0.9993836}
+      scale: {x: 0.9999995, y: 1.000001, z: 1}
+    - name: Felsen_Rig_v2:Finger_07
+      parentName: Felsen_Rig_v2:Finger_06
+      position: {x: -0.0071650287, y: -0.047255453, z: -0.0023240622}
+      rotation: {x: 0.06327682, y: 0.037876885, z: 0.63469666, w: -0.76923436}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: Felsen_Rig_v2:Finger_08
+      parentName: Felsen_Rig_v2:Finger_07
+      position: {x: 0.08270824, y: -0.029401492, z: -0.017447995}
+      rotation: {x: 0.028479932, y: -0.02622546, z: 0.70719844, w: 0.7059543}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:UpperLeg_L
+      parentName: Felsen_Rig_v2:Hips
+      position: {x: 0.035228215, y: 0.00723456, z: 0.14836726}
+      rotation: {x: 0.6149534, y: -0.06838003, z: -0.19037372, w: 0.76217735}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000017}
+    - name: Felsen_Rig_v2:LowerLeg_L
+      parentName: Felsen_Rig_v2:UpperLeg_L
+      position: {x: 0.42482302, y: 0.10561197, z: -0.15233377}
+      rotation: {x: -0.64861894, y: 0.018035155, z: -0.014033131, w: -0.76077026}
+      scale: {x: 1.0000012, y: 1.0000011, z: 1.0000024}
+    - name: Felsen_Rig_v2:Ankle_L
+      parentName: Felsen_Rig_v2:LowerLeg_L
+      position: {x: 0.47144789, y: -0.023004381, z: -0.07735037}
+      rotation: {x: -0.11179504, y: -0.16387802, z: 0.5846541, w: -0.7866546}
+      scale: {x: 1, y: 1.0000006, z: 1.0000005}
+    - name: Felsen_Rig_v2:Ball_L
+      parentName: Felsen_Rig_v2:Ankle_L
+      position: {x: 0.15390679, y: -0.018991316, z: -0.0000000024452669}
+      rotation: {x: 0.06456645, y: 0.009800844, z: -0.2694363, w: 0.9608014}
+      scale: {x: 0.9999997, y: 1, z: 0.9999998}
+    - name: Felsen_Rig_v2:Toes_L
+      parentName: Felsen_Rig_v2:Ball_L
+      position: {x: 0.11152316, y: 0.000000033690583, z: -3.388969e-10}
+      rotation: {x: -2.7433443e-13, y: -0.7071068, z: -2.7433443e-13, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:CTRL_General
+      parentName: Felsen_Basic_Attack_v9(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:IK_FK_ArmL_GRP
+      parentName: Felsen_Rig_v2:CTRL_General
+      position: {x: -0.024127424, y: 1.4348948, z: 0.25932276}
+      rotation: {x: 0.34281415, y: 0.34493396, z: -0.09381859, w: 0.86873305}
+      scale: {x: 1.1203854, y: 1.1203854, z: 1.1203854}
+    - name: Felsen_Rig_v2:Shoulder_L_FK
+      parentName: Felsen_Rig_v2:IK_FK_ArmL_GRP
+      position: {x: -0.11136839, y: -0.083294965, z: 0.07981021}
+      rotation: {x: -0.025344068, y: 0.3635209, z: 0.06812675, w: 0.928746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Elbow_L_FK
+      parentName: Felsen_Rig_v2:Shoulder_L_FK
+      position: {x: -0.3903919, y: 0.03285867, z: -0.009462405}
+      rotation: {x: -0.10272487, y: 0.6883049, z: -0.0026068392, w: 0.7181066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Hand_L_FK
+      parentName: Felsen_Rig_v2:Elbow_L_FK
+      position: {x: -0.44894594, y: 1.8451232e-11, z: -0.0066136424}
+      rotation: {x: -0.0015763886, y: 0.021152645, z: -0.03699849, w: 0.9990902}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Shoulder_L_IK
+      parentName: Felsen_Rig_v2:IK_FK_ArmL_GRP
+      position: {x: -0.11136839, y: -0.08329495, z: 0.07981021}
+      rotation: {x: -0.09578555, y: -0.485409, z: 0.094436266, w: 0.8638779}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Elbow_L_IK
+      parentName: Felsen_Rig_v2:Shoulder_L_IK
+      position: {x: -0.39262593, y: 0.032503195, z: -0.007400633}
+      rotation: {x: -0.00008183439, y: -0.001996304, z: -0.041293632, w: 0.9991451}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Hand_L_IK
+      parentName: Felsen_Rig_v2:Elbow_L_IK
+      position: {x: -0.4489459, y: 0.0000000064329058, z: -0.006613647}
+      rotation: {x: -0.20553182, y: 0.14061922, z: 0.17229715, w: 0.953046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:IK_FK_ArmR_GRP
+      parentName: Felsen_Rig_v2:CTRL_General
+      position: {x: 0.12566201, y: 1.5539421, z: -0.062525645}
+      rotation: {x: 0.63479215, y: -0.23705713, z: -0.6195621, w: 0.39621422}
+      scale: {x: 1.1203854, y: 1.1203854, z: 1.1203854}
+    - name: Felsen_Rig_v2:Shoulder_R_FK
+      parentName: Felsen_Rig_v2:IK_FK_ArmR_GRP
+      position: {x: 0.08309958, y: -0.10944622, z: -0.082623005}
+      rotation: {x: -0.11089358, y: -0.00059533294, z: 0.41372573, w: 0.9036223}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Elbow_R_FK
+      parentName: Felsen_Rig_v2:Shoulder_R_FK
+      position: {x: -0.024061527, y: -0.39137384, z: 0.00863707}
+      rotation: {x: 0.5492292, y: -0.01805539, z: -0.02384139, w: 0.8351364}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Hand_R_FK
+      parentName: Felsen_Rig_v2:Elbow_R_FK
+      position: {x: -0.0019396892, y: -0.44878376, z: 0.006602254}
+      rotation: {x: -0.03390844, y: 0.23814309, z: -0.0090952255, w: 0.97059536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Shoulder_R_IK
+      parentName: Felsen_Rig_v2:IK_FK_ArmR_GRP
+      position: {x: 0.08309958, y: -0.10944623, z: -0.082623005}
+      rotation: {x: 0.0892363, y: 0.09032245, z: -0.25299874, w: 0.95909876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Elbow_R_IK
+      parentName: Felsen_Rig_v2:Shoulder_R_IK
+      position: {x: -0.024185184, y: -0.3933852, z: 0.0073990505}
+      rotation: {x: 0.81619495, y: -0.025946688, z: -0.013300568, w: 0.5770405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Hand_R_IK
+      parentName: Felsen_Rig_v2:Elbow_R_IK
+      position: {x: -0.0019396889, y: -0.44878376, z: 0.0066022556}
+      rotation: {x: 0.0015153395, y: 0.38714927, z: 0.323651, w: 0.8633442}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:IK_FK_LegL_GRP
+      parentName: Felsen_Rig_v2:CTRL_General
+      position: {x: -0.046687186, y: 0.8495203, z: -0.13263153}
+      rotation: {x: 0.38139412, y: -0.33370394, z: -0.589673, w: 0.6288609}
+      scale: {x: 1.1203854, y: 1.1203854, z: 1.1203854}
+    - name: Felsen_Rig_v2:UpperLeg_L_IK
+      parentName: Felsen_Rig_v2:IK_FK_LegL_GRP
+      position: {x: 0.035228215, y: 0.00723456, z: 0.14836726}
+      rotation: {x: 0.7328837, y: 0.0072751394, z: 0.4459611, w: 0.513758}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:LowerLeg_L_IK
+      parentName: Felsen_Rig_v2:UpperLeg_L_IK
+      position: {x: 0.42482302, y: 0.10561196, z: -0.15233377}
+      rotation: {x: 0.5937479, y: -0.3803621, z: 0.15838386, w: 0.6911604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Ankle_L_IK
+      parentName: Felsen_Rig_v2:LowerLeg_L_IK
+      position: {x: 0.47144789, y: -0.023004383, z: -0.07735037}
+      rotation: {x: 0.059079535, y: 0.029074345, z: -0.50654876, w: 0.85969335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Ball_L_IK
+      parentName: Felsen_Rig_v2:Ankle_L_IK
+      position: {x: 0.15390679, y: -0.018991316, z: -0.0000000023178883}
+      rotation: {x: 0.06456654, y: 0.009800273, z: -0.26943997, w: 0.96080035}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Toes_L_IK
+      parentName: Felsen_Rig_v2:Ball_L_IK
+      position: {x: 0.11131662, y: 0.0004575446, z: -0.006768683}
+      rotation: {x: -2.4728714e-13, y: -0.7071068, z: -2.4728714e-13, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:UpperLeg_L_FK
+      parentName: Felsen_Rig_v2:IK_FK_LegL_GRP
+      position: {x: 0.035228215, y: 0.00723456, z: 0.14836726}
+      rotation: {x: -0.70587015, y: 0.041794166, z: -0.06416663, w: 0.7041898}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:LowerLeg_L_FK
+      parentName: Felsen_Rig_v2:UpperLeg_L_FK
+      position: {x: 0.4585958, y: 0.0034738965, z: 0.06717069}
+      rotation: {x: 0.64437777, y: 0.024462728, z: -0.00473771, w: 0.7643013}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Ankle_L_FK
+      parentName: Felsen_Rig_v2:LowerLeg_L_FK
+      position: {x: 0.47421512, y: -0.06166685, z: -0.009625448}
+      rotation: {x: 0.8586065, y: 0.5074864, z: 0.033833757, w: -0.06409114}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Ball_L_FK
+      parentName: Felsen_Rig_v2:Ankle_L_FK
+      position: {x: 0.15390679, y: -0.018991316, z: -0.0000000023178879}
+      rotation: {x: -0.0000000267802, y: -0.0000000041062322, z: -0.2700163, w: 0.96285576}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Toes_L_FK
+      parentName: Felsen_Rig_v2:Ball_L_FK
+      position: {x: 0.11136213, y: 0.00035676523, z: -0.005980524}
+      rotation: {x: -2.4728714e-13, y: -0.7071068, z: -2.4728714e-13, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:IK_FK_LegR_GRP
+      parentName: Felsen_Rig_v2:CTRL_General
+      position: {x: -0.046687186, y: 0.8495203, z: -0.13263153}
+      rotation: {x: 0.38139412, y: -0.33370394, z: -0.589673, w: 0.6288609}
+      scale: {x: 1.1203854, y: 1.1203854, z: 1.1203854}
+    - name: Felsen_Rig_v2:UpperLeg_R_FK
+      parentName: Felsen_Rig_v2:IK_FK_LegR_GRP
+      position: {x: 0.035228107, y: 0.007234576, z: -0.14764243}
+      rotation: {x: 0.041756842, y: 0.70587325, z: -0.7041898, w: -0.064157665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:LowerLeg_R_FK
+      parentName: Felsen_Rig_v2:UpperLeg_R_FK
+      position: {x: -0.45861667, y: -0.001369822, z: -0.067017496}
+      rotation: {x: 0.64437777, y: 0.024462728, z: -0.00473771, w: 0.7643013}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Ankle_R_FK
+      parentName: Felsen_Rig_v2:LowerLeg_R_FK
+      position: {x: -0.47424078, y: 0.061214123, z: 0.011720127}
+      rotation: {x: 0.8573438, y: 0.50710213, z: 0.041659754, w: -0.07793283}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Ball_R_FK
+      parentName: Felsen_Rig_v2:Ankle_R_FK
+      position: {x: -0.15390684, y: 0.018991325, z: 0.0000001475375}
+      rotation: {x: 0.0000010429643, y: 0.0000036978065, z: -0.27001584, w: 0.9628559}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Toes_R_FK
+      parentName: Felsen_Rig_v2:Ball_R_FK
+      position: {x: -0.11131525, y: -0.00046044256, z: -0.0067909984}
+      rotation: {x: -0.000000021846713, y: -0.7071062, z: -0.000000021846672, w: 0.7071075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:UpperLeg_R_IK
+      parentName: Felsen_Rig_v2:IK_FK_LegR_GRP
+      position: {x: 0.035228107, y: 0.007234576, z: -0.14764243}
+      rotation: {x: 0.2758605, y: -0.6171868, z: 0.708432, w: 0.20274527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:LowerLeg_R_IK
+      parentName: Felsen_Rig_v2:UpperLeg_R_IK
+      position: {x: -0.45865184, y: 0.0039676945, z: -0.06667246}
+      rotation: {x: 0.5840198, y: 0.3129718, z: -0.18629652, w: 0.72543997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Ankle_R_IK
+      parentName: Felsen_Rig_v2:LowerLeg_R_IK
+      position: {x: -0.47430447, y: 0.05962875, z: 0.016387852}
+      rotation: {x: 0.6798804, y: 0.59258825, z: -0.17510575, w: -0.39489233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Ball_R_IK
+      parentName: Felsen_Rig_v2:Ankle_R_IK
+      position: {x: -0.15390684, y: 0.018991325, z: 0.0000001475375}
+      rotation: {x: -0.07336285, y: -0.011132076, z: -0.2692718, w: 0.9602014}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Toes_R_IK
+      parentName: Felsen_Rig_v2:Ball_R_IK
+      position: {x: -0.11152316, y: 0.0000000054560263, z: 0.00000014396005}
+      rotation: {x: -0.000000021846713, y: -0.7071062, z: -0.000000021846672, w: 0.7071075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:FELSEN_GEO_GRP
+      parentName: Felsen_Basic_Attack_v9(Clone)
+      position: {x: 0.39497986, y: 2.2701166, z: -0.0741912}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.134, y: 1.134, z: 1.134}
+    - name: Felsen_Rig_v2:Shield_GRP
+      parentName: Felsen_Rig_v2:FELSEN_GEO_GRP
+      position: {x: 0.58298194, y: -0.2979864, z: 0.04466753}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Shield
+      parentName: Felsen_Rig_v2:Shield_GRP
+      position: {x: -0, y: 0, z: -4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Pelo_grp
+      parentName: Felsen_Rig_v2:FELSEN_GEO_GRP
+      position: {x: -0.34830678, y: -0.67179036, z: 0.09471265}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:FelsenpeloB
+      parentName: Felsen_Rig_v2:Felsen_Pelo_grp
+      position: {x: -0, y: -1.330076, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_peloC
+      parentName: Felsen_Rig_v2:Felsen_Pelo_grp
+      position: {x: -0, y: -1.330076, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_body_geo.003
+      parentName: Felsen_Rig_v2:Felsen_Pelo_grp
+      position: {x: -0, y: -1.330076, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_mechon2
+      parentName: Felsen_Rig_v2:Felsen_Pelo_grp
+      position: {x: -0, y: -1.330076, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Front_Mechon_geo1
+      parentName: Felsen_Rig_v2:Felsen_Pelo_grp
+      position: {x: -0, y: -1.330076, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_mechon3
+      parentName: Felsen_Rig_v2:Felsen_Pelo_grp
+      position: {x: -0, y: -1.330076, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_peloD
+      parentName: Felsen_Rig_v2:Felsen_Pelo_grp
+      position: {x: -0, y: -1.330076, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:BezierCurve.001
+      parentName: Felsen_Rig_v2:Felsen_Pelo_grp
+      position: {x: -0, y: -1.330076, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_back_tail_geo1
+      parentName: Felsen_Rig_v2:Felsen_Pelo_grp
+      position: {x: -0, y: -1.330076, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:BezierCurve.004
+      parentName: Felsen_Rig_v2:Felsen_Pelo_grp
+      position: {x: -0, y: -1.330076, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:BezierCurve
+      parentName: Felsen_Rig_v2:Felsen_Pelo_grp
+      position: {x: -0, y: -1.330076, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_amarra_pelo_geo1
+      parentName: Felsen_Rig_v2:Felsen_Pelo_grp
+      position: {x: -0, y: -1.330076, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_amarra_pelo_geo2
+      parentName: Felsen_Rig_v2:Felsen_Pelo_grp
+      position: {x: -0, y: -1.330076, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_amarra_pelo_geo3
+      parentName: Felsen_Rig_v2:Felsen_Pelo_grp
+      position: {x: -0, y: -1.330076, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_peloA_fix1
+      parentName: Felsen_Rig_v2:Felsen_Pelo_grp
+      position: {x: -0, y: -1.330076, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Left_side_geo_grp
+      parentName: Felsen_Rig_v2:FELSEN_GEO_GRP
+      position: {x: -0.34830678, y: -2.0018663, z: 0.09471265}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:tobillera_fix1_geo
+      parentName: Felsen_Rig_v2:Felsen_Left_side_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_muslera_izq_fix1_geo
+      parentName: Felsen_Rig_v2:Felsen_Left_side_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_hombrera_izq_GEO
+      parentName: Felsen_Rig_v2:Felsen_Left_side_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Guantes_izq_geo
+      parentName: Felsen_Rig_v2:Felsen_Left_side_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_bracera_izq_geo1
+      parentName: Felsen_Rig_v2:Felsen_Left_side_geo_grp
+      position: {x: 0.1102344, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Rodillera_izq_geo
+      parentName: Felsen_Rig_v2:Felsen_Left_side_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Rejilla_pie_izq
+      parentName: Felsen_Rig_v2:Felsen_Left_side_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_shoe_izq_geo
+      parentName: Felsen_Rig_v2:Felsen_Left_side_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_correa1_izq_geo
+      parentName: Felsen_Rig_v2:Felsen_Left_side_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Amarramuslera_izq_geo
+      parentName: Felsen_Rig_v2:Felsen_Left_side_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_correas2_izq_geo
+      parentName: Felsen_Rig_v2:Felsen_Left_side_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_hombrera_der_GEO
+      parentName: Felsen_Rig_v2:Felsen_Left_side_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Rodillera_izq_geo1
+      parentName: Felsen_Rig_v2:Felsen_Left_side_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Right_side_geo_GRP
+      parentName: Felsen_Rig_v2:FELSEN_GEO_GRP
+      position: {x: -0.34830678, y: -2.0018663, z: 0.09471265}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:tobillera_der_geo
+      parentName: Felsen_Rig_v2:Felsen_Right_side_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_muslera_der_fix1_geo
+      parentName: Felsen_Rig_v2:Felsen_Right_side_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Guantes_der_geo
+      parentName: Felsen_Rig_v2:Felsen_Right_side_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_bracera_der_geo1
+      parentName: Felsen_Rig_v2:Felsen_Right_side_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_shoe_der_geo
+      parentName: Felsen_Rig_v2:Felsen_Right_side_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_correas2_izq_geo1
+      parentName: Felsen_Rig_v2:Felsen_Right_side_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_correa1_izq_geo1
+      parentName: Felsen_Rig_v2:Felsen_Right_side_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Amarramuslera_izq_geo1
+      parentName: Felsen_Rig_v2:Felsen_Right_side_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Rejilla_pie_der
+      parentName: Felsen_Rig_v2:Felsen_Right_side_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_GeoFixes_GRP
+      parentName: Felsen_Rig_v2:FELSEN_GEO_GRP
+      position: {x: -0.35074916, y: -1.2570752, z: 0.14360772}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_taparabo_fix1_geo
+      parentName: Felsen_Rig_v2:Felsen_GeoFixes_GRP
+      position: {x: 0.0024424077, y: -0.74479115, z: -0.04889507}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_HardPechera_geo
+      parentName: Felsen_Rig_v2:Felsen_GeoFixes_GRP
+      position: {x: 0.0024424077, y: -0.74479115, z: -0.04889507}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_SoftPechera_geo
+      parentName: Felsen_Rig_v2:Felsen_GeoFixes_GRP
+      position: {x: 0.0024424077, y: -0.74479115, z: -0.04889507}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_FaceMask
+      parentName: Felsen_Rig_v2:FELSEN_GEO_GRP
+      position: {x: -0.34830678, y: -2.0018663, z: 0.09471265}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Body1 1
+      parentName: Felsen_Rig_v2:FELSEN_GEO_GRP
+      position: {x: -0.34830678, y: -2.0018663, z: 0.06542434}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Weapons_GEO_GRP
+      parentName: Felsen_Basic_Attack_v9(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Shield_GRP
+      parentName: Felsen_Rig_v2:Felsen_Weapons_GEO_GRP
+      position: {x: -1.2117344, y: 1.9319063, z: -0.023545692}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Base_General
+      parentName: Felsen_Rig_v2:Felsen_Shield_GRP
+      position: {x: -0.006632035, y: 0.019586634, z: -0.014459085}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Borde
+      parentName: Felsen_Rig_v2:Felsen_Base_General
+      position: {x: 1.2183664, y: -1.951493, z: 0.03800478}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Borde_Central
+      parentName: Felsen_Rig_v2:Felsen_Base_General
+      position: {x: 1.2183664, y: -1.951493, z: 0.03800478}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Base
+      parentName: Felsen_Rig_v2:Felsen_Base_General
+      position: {x: 1.2183664, y: -1.951493, z: 0.03800478}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Soporte_Base
+      parentName: Felsen_Rig_v2:Felsen_Base_General
+      position: {x: 1.2183664, y: -1.951493, z: 0.03800478}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Soportes
+      parentName: Felsen_Rig_v2:Felsen_Shield_GRP
+      position: {x: -0.0066122054, y: 0.019527968, z: -0.014415968}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_T_Soporte
+      parentName: Felsen_Rig_v2:Felsen_Soportes
+      position: {x: 1.2183466, y: -1.9514343, z: 0.03796166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_R_Soporte
+      parentName: Felsen_Rig_v2:Felsen_Soportes
+      position: {x: 1.2183466, y: -1.9514343, z: 0.03796166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_B_Soporte
+      parentName: Felsen_Rig_v2:Felsen_Soportes
+      position: {x: 1.2183466, y: -1.9514343, z: 0.03796166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_L_Soporte
+      parentName: Felsen_Rig_v2:Felsen_Soportes
+      position: {x: 1.2183466, y: -1.9514343, z: 0.03796166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Roca_Central
+      parentName: Felsen_Rig_v2:Felsen_Shield_GRP
+      position: {x: 1.2117344, y: -1.9319063, z: 0.023545692}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_sword_GEO
+      parentName: Felsen_Rig_v2:Felsen_Weapons_GEO_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Felsen_Rig_v2:Felsen_Body1
+      parentName: Felsen_Basic_Attack_v9(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

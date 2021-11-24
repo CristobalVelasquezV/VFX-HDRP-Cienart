@@ -1,0 +1,495 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1017379014622461874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1017379014622461871}
+  - component: {fileID: 1017379014622461872}
+  - component: {fileID: 1017379014622461873}
+  m_Layer: 0
+  m_Name: Fire3D (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1017379014622461871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017379014622461874}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -27.86, y: 9.8, z: -96.88}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &1017379014622461872
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017379014622461874}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: d9d122c040c48dc47a6743bae5c0277c, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_ResourceVersion: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 0.01
+        m_Name: NoiseScale
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: NoiseRotationSpeed
+        m_Overridden: 1
+      - m_Value: 0.01
+        m_Name: EdgeThickness
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Metallic
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Smoothness
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: AmbientOcclusion
+        m_Overridden: 1
+      - m_Value: 3.3
+        m_Name: DistortionAmount
+        m_Overridden: 1
+      - m_Value: 6.28
+        m_Name: Fire ArcCone_arc
+        m_Overridden: 1
+      - m_Value: 3
+        m_Name: Iner Fire Spawn Rate
+        m_Overridden: 1
+      - m_Value: 0.3
+        m_Name: Fire ArcCone_radius0
+        m_Overridden: 1
+      - m_Value: 0.1
+        m_Name: Posterize Steps
+        m_Overridden: 1
+      - m_Value: 0.1
+        m_Name: AlphaClip
+        m_Overridden: 1
+      - m_Value: 5
+        m_Name: Turbulence Intensity
+        m_Overridden: 1
+      - m_Value: 0.7
+        m_Name: Specular Strenght
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: BaseColorIntensity
+        m_Overridden: 1
+      - m_Value: 0.85
+        m_Name: ToonLightIntensity
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: RimIntensity
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: AmbientIntensity
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: EmisionIntensity
+        m_Overridden: 1
+      - m_Value: 0.1
+        m_Name: ShadowThreshold
+        m_Overridden: 1
+      - m_Value: 0.7
+        m_Name: SpecularSize
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Brightness
+        m_Overridden: 1
+      - m_Value: 1.6
+        m_Name: ShadingToony
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Fire ArcCone_radius1
+        m_Overridden: 1
+      - m_Value: 4
+        m_Name: Fire ArcCone_height
+        m_Overridden: 1
+      - m_Value: 0.001
+        m_Name: LinearDrag
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: DragMultiplier
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array:
+      - m_Value: {x: 0, y: -0.22}
+        m_Name: DistortionAmountRange
+        m_Overridden: 1
+      - m_Value: {x: 6, y: 7}
+        m_Name: InerLifetime
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 5}
+        m_Name: InnerFireSizeRanges
+        m_Overridden: 1
+      - m_Value: {x: 2, y: -1}
+        m_Name: UpperLowerLimits
+        m_Overridden: 1
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 0, y: 3, z: 11}
+        m_Name: FireForce
+        m_Overridden: 1
+      - m_Value: {x: 0, y: -40, z: 0}
+        m_Name: MinAngularRotation
+        m_Overridden: 1
+      - m_Value: {x: 0, y: -50, z: 0}
+        m_Name: MaxAngularRotation
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 3, z: 0}
+        m_Name: Max Initial Velocity
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 3, z: 0}
+        m_Name: MinInitialVelocity
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array:
+      - m_Value: {x: 1, y: 1, z: 1, w: 0}
+        m_Name: FireMainColor
+        m_Overridden: 1
+      - m_Value: {x: 1024, y: 1024, z: 1024, w: 0}
+        m_Name: FireEdgeColor
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 2.829777, z: 4.791789, w: 0}
+        m_Name: ShadowColor
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0, w: 0}
+        m_Name: SpecularColor
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0, w: 0}
+        m_Name: RimColor
+        m_Overridden: 1
+      - m_Value: {x: 83.278145, y: 83.278145, z: 83.278145, w: 0}
+        m_Name: AmbientColor
+        m_Overridden: 1
+      - m_Value: {x: 13.645236, y: 13.645236, z: 13.645236, w: 0}
+        m_Name: SmokeBaseColor
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1, w: 0}
+        m_Name: NoiseColor
+        m_Overridden: 1
+      - m_Value: {x: 6.0964675, y: 6.0964675, z: 6.0964675, w: 0}
+        m_Name: EdgeColor
+        m_Overridden: 1
+    m_Uint:
+      m_Array: []
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.26796097
+            value: 26.67662
+            inSlope: 146.91603
+            outSlope: 146.91603
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.45794773
+            value: 34.5403
+            inSlope: 0.59137625
+            outSlope: 0.59137625
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.5847277
+            value: 22.45948
+            inSlope: -177.19719
+            outSlope: -177.19719
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.63574374
+            value: 15.975243
+            inSlope: -89.58816
+            outSlope: -89.58816
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.7300528
+            value: 13.986262
+            inSlope: -69.39261
+            outSlope: -69.39261
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.85211855
+            value: 0.78477263
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: SizeOverLifeCurve
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.50128174
+            value: 0.28775024
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: DisolveCurve
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: -0.0051498413
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.77637416
+            value: 0.9354345
+            inSlope: -1.5134528
+            outSlope: -1.5134528
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.9949951
+            value: 0.6024246
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: Alpha over Life Curve
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0.02524057
+            value: 3.1488295
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.2416459
+            value: 2.40933
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: DragOverTime
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.8526447
+            value: 21.452017
+            inSlope: 1.4905399
+            outSlope: 1.4905399
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1.0098877
+            value: 100
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: DragCurve
+        m_Overridden: 1
+    m_Gradient:
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 38.937145, g: 7.542798, b: 0, a: 1}
+          key1: {r: 0, g: 3.3285184, b: 13.149395, a: 1}
+          key2: {r: 0, g: 2.9746137, b: 13.149394, a: 0.050980393}
+          key3: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 0.8101935}
+          key4: {r: 19.468573, g: 19.468573, b: 19.468573, a: 1}
+          key5: {r: 0, g: 0.48008284, b: 6.062982, a: 0}
+          key6: {r: 0.3963049, g: 0, b: 1.7735716, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 65535
+          ctime2: 65535
+          ctime3: 41249
+          ctime4: 65535
+          ctime5: 44911
+          ctime6: 57440
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 964
+          atime3: 15613
+          atime4: 19275
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 2
+          m_NumAlphaKeys: 2
+        m_Name: ColorOverLifeGradient
+        m_Overridden: 1
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 8828012301128352687, guid: c7ed554c3c78e9c468889266f17ef42b,
+          type: 3}
+        m_Name: CloudMesh
+        m_Overridden: 1
+    m_Bool:
+      m_Array:
+      - m_Value: 0
+        m_Name: Disolve
+        m_Overridden: 1
+--- !u!73398921 &1017379014622461873
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017379014622461874}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

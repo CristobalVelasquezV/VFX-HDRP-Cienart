@@ -1,0 +1,960 @@
+fileFormatVersion: 2
+guid: f050d902345c2cf46acf021dc3f837ba
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 2198763392207982599
+    second: Soldado1_Attack1
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Soldado1_Attack1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Soldado1_Chancho_Rig_M1:Spine_01' has translation
+      animation that will be discarded.\n\t'Soldado1_Chancho_Rig_M1:Head' has translation
+      animation that will be discarded.\n\t'Soldado1_Chancho_Rig_M1:IndexFinger_01'
+      has translation animation that will be discarded.\n\t'Soldado1_Chancho_Rig_M1:Clavicle_R'
+      has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 1
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Soldado1_Attack1
+      takeName: Soldado1_Attack1
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.38858694
+        functionName: EnableVFX
+        data: 
+        objectReferenceParameter: {fileID: 4461061746622673049, guid: 9b52115d06a4ad7489c7ff39cf9eefcc,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6139315
+        functionName: DisableVFX
+        data: 
+        objectReferenceParameter: {fileID: 4461061746622673049, guid: 9b52115d06a4ad7489c7ff39cf9eefcc,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Soldado1_Chancho_Rig_M1:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:UpperLeg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:UpperLeg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:LowerLeg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:LowerLeg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Spine_01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Spine_02
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Clavicle_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Clavicle_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Shoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Shoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Ball_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Ball_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Thumb_01
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Thumb_02
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:IndexFinger_01
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:IndexFinger_02
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:IndexFinger_03
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Finger_01
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Finger_02
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Finger_03
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Thumb_04
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Thumb_05
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:IndexFinger_05
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:IndexFinger_06
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:IndexFinger_07
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Finger_05
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Finger_06
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Finger_07
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Soldado1_Chancho_Rig_M1:Spine_03
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Soldado1_Attack1(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:ROOT
+      parentName: Soldado1_Attack1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.009712557, y: 0.009712557, z: 0.009712557}
+    - name: Soldado1_Chancho_Rig_M1:Hips
+      parentName: Soldado1_Chancho_Rig_M1:ROOT
+      position: {x: 0.03623895, y: 104.7331, z: -15.569713}
+      rotation: {x: 0.46113667, y: -0.5360532, z: -0.46113667, w: 0.5360531}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: Soldado1_Chancho_Rig_M1:Spine_01
+      parentName: Soldado1_Chancho_Rig_M1:Hips
+      position: {x: -18.68154, y: 1.4027593, z: -0.66299576}
+      rotation: {x: -0.9950197, y: 0.099678904, z: 0.000000029802322, w: -0.000000029802322}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Spine_02
+      parentName: Soldado1_Chancho_Rig_M1:Spine_01
+      position: {x: -18.151169, y: -0.0000000124927695, z: -2.6852032e-10}
+      rotation: {x: 0.99518615, y: -0.09800273, z: -0.000000031237413, w: -0.000000015025533}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000008}
+    - name: Soldado1_Chancho_Rig_M1:Spine_03
+      parentName: Soldado1_Chancho_Rig_M1:Spine_02
+      position: {x: -19.744732, y: 9.405999, z: 0.000000052312664}
+      rotation: {x: -0.99381036, y: 0.111090265, z: 0.0000000015799202, w: -0.00000004479844}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999997}
+    - name: Soldado1_Chancho_Rig_M1:Neck
+      parentName: Soldado1_Chancho_Rig_M1:Spine_03
+      position: {x: -11.597813, y: 5.2926874, z: -6.261884e-14}
+      rotation: {x: -3.3210057e-10, y: -0.0000000024657774, z: 0.04173336, w: 0.9991288}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Soldado1_Chancho_Rig_M1:Head
+      parentName: Soldado1_Chancho_Rig_M1:Neck
+      position: {x: -9.09377, y: 4.180316, z: 5.1159077e-13}
+      rotation: {x: 0.45857096, y: -0.53824973, z: 0.45857096, w: 0.5382496}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Soldado1_Chancho_Rig_M1:transform6
+      parentName: Soldado1_Chancho_Rig_M1:Head
+      position: {x: 1.4944542e-12, y: -182.35251, z: -7.264066}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0295949, y: 1.0295949, z: 1.0295949}
+    - name: Soldado1_Chancho_Rig_M1:Hat
+      parentName: Soldado1_Chancho_Rig_M1:transform6
+      position: {x: -1.9862914e-28, y: 220.49918, z: 1.1900909}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Clavicle_R
+      parentName: Soldado1_Chancho_Rig_M1:Spine_03
+      position: {x: -3.6622965, y: 6.9782534, z: 16.709724}
+      rotation: {x: -0.8588816, y: 0.022718253, z: -0.020923527, w: 0.5112422}
+      scale: {x: 1.0000008, y: 1.0000011, z: 1.0000015}
+    - name: Soldado1_Chancho_Rig_M1:Shoulder_R
+      parentName: Soldado1_Chancho_Rig_M1:Clavicle_R
+      position: {x: 8.761122, y: -22.406157, z: -10.5955305}
+      rotation: {x: 0.24288493, y: 0.0013260803, z: 0.026975978, w: 0.96967906}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999995}
+    - name: Soldado1_Chancho_Rig_M1:Elbow_R
+      parentName: Soldado1_Chancho_Rig_M1:Shoulder_R
+      position: {x: -1.7417117, y: -28.32989, z: 0.8492598}
+      rotation: {x: 0.040762257, y: -0.001340027, z: -0.02851256, w: 0.9987611}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000006}
+    - name: Soldado1_Chancho_Rig_M1:Hand_R
+      parentName: Soldado1_Chancho_Rig_M1:Elbow_R
+      position: {x: -0.17211308, y: -39.821617, z: 0.29714742}
+      rotation: {x: -0.03583055, y: 0.0001341825, z: -0.0005781321, w: 0.9993577}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000004}
+    - name: Soldado1_Chancho_Rig_M1:transform5
+      parentName: Soldado1_Chancho_Rig_M1:Hand_R
+      position: {x: 161.92671, y: 113.89601, z: 5.719174}
+      rotation: {x: -0.7059869, y: 0.70822495, z: 3.5898083e-14, w: -3.5784645e-14}
+      scale: {x: 0.89255005, y: 0.89255005, z: 0.89255005}
+    - name: Soldado1_Chancho_Rig_M1:Sword_GRP_JNT
+      parentName: Soldado1_Chancho_Rig_M1:Hand_R
+      position: {x: 2.5797424, y: -14.852356, z: -4.9772553}
+      rotation: {x: -0.7059869, y: 0.70822495, z: 3.5898083e-14, w: -3.5784645e-14}
+      scale: {x: 0.89255005, y: 0.89255005, z: 0.89255005}
+    - name: Soldado1_Chancho_Rig_M1:Sword_JNT
+      parentName: Soldado1_Chancho_Rig_M1:Sword_GRP_JNT
+      position: {x: 0.17175293, y: 0.81796265, z: 2.5753698}
+      rotation: {x: -0.7923553, y: -0.19710898, z: 0.04748913, w: -0.57538325}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999964}
+    - name: Soldado1_Chancho_Rig_M1:Thumb_04
+      parentName: Soldado1_Chancho_Rig_M1:Hand_R
+      position: {x: 3.0817509, y: -7.5222797, z: -8.94827}
+      rotation: {x: -0.095551915, y: -0.83845663, z: -0.22295119, w: 0.48800933}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: Soldado1_Chancho_Rig_M1:Thumb_05
+      parentName: Soldado1_Chancho_Rig_M1:Thumb_04
+      position: {x: -5.9898844, y: -6.907731, z: -1.3660582}
+      rotation: {x: 0.090822406, y: 0.0202834, z: -0.17315038, w: 0.98048913}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Thumb_06
+      parentName: Soldado1_Chancho_Rig_M1:Thumb_05
+      position: {x: -2.4551656, y: -8.191114, z: -0.41101506}
+      rotation: {x: 0.0035446472, y: 0.009625891, z: 0.007899453, w: 0.9999162}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:IndexFinger_05
+      parentName: Soldado1_Chancho_Rig_M1:Hand_R
+      position: {x: -3.1770892, y: -16.424753, z: -5.2659345}
+      rotation: {x: -0.1261179, y: -0.008046892, z: 0.034878965, w: -0.9913693}
+      scale: {x: 1.0000002, y: 0.9999999, z: 0.9999998}
+    - name: Soldado1_Chancho_Rig_M1:IndexFinger_06
+      parentName: Soldado1_Chancho_Rig_M1:IndexFinger_05
+      position: {x: -0.06714559, y: -8.636255, z: 1.1439147}
+      rotation: {x: -0.010751574, y: 0.001056937, z: 0.0867038, w: 0.99617565}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:IndexFinger_07
+      parentName: Soldado1_Chancho_Rig_M1:IndexFinger_06
+      position: {x: -0.98514354, y: -6.5469055, z: 0.8278668}
+      rotation: {x: 0.025842594, y: -0.0064287665, z: -0.058954976, w: -0.9979054}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: Soldado1_Chancho_Rig_M1:IndexFinger_08
+      parentName: Soldado1_Chancho_Rig_M1:IndexFinger_07
+      position: {x: -2.2800255, y: -7.297515, z: 0.43481362}
+      rotation: {x: 0.010008598, y: -0.013127802, z: -0.013274175, w: 0.99977565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Finger_05
+      parentName: Soldado1_Chancho_Rig_M1:Hand_R
+      position: {x: -2.8730628, y: -15.618848, z: 2.80471}
+      rotation: {x: 0.03455625, y: -0.0023556068, z: 0.048640568, w: 0.9982157}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: Soldado1_Chancho_Rig_M1:Finger_06
+      parentName: Soldado1_Chancho_Rig_M1:Finger_05
+      position: {x: -0.56190044, y: -6.070272, z: -0.537418}
+      rotation: {x: 0.019524824, y: -0.002381836, z: 0.029077882, w: 0.9993837}
+      scale: {x: 1.0000002, y: 1, z: 1.0000004}
+    - name: Soldado1_Chancho_Rig_M1:Finger_07
+      parentName: Soldado1_Chancho_Rig_M1:Finger_06
+      position: {x: -0.7165028, y: -4.725545, z: -0.2324062}
+      rotation: {x: 0.063276954, y: 0.037876975, z: 0.6346967, w: -0.76923436}
+      scale: {x: 1.0000005, y: 0.9999999, z: 1.0000007}
+    - name: Soldado1_Chancho_Rig_M1:Finger_08
+      parentName: Soldado1_Chancho_Rig_M1:Finger_07
+      position: {x: 8.270824, y: -2.9401493, z: -1.7447996}
+      rotation: {x: 0.028479932, y: -0.02622546, z: 0.70719844, w: 0.7059543}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Clavicle_L
+      parentName: Soldado1_Chancho_Rig_M1:Spine_03
+      position: {x: -3.6622694, y: 6.9782515, z: -16.709753}
+      rotation: {x: 0.5817933, y: -0.62818265, z: 0.3471323, w: 0.38262555}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000004}
+    - name: Soldado1_Chancho_Rig_M1:Shoulder_L
+      parentName: Soldado1_Chancho_Rig_M1:Clavicle_L
+      position: {x: -22.755392, y: -8.68612, z: 10.239771}
+      rotation: {x: 0.011328131, y: 0.23685992, z: 0.033806562, w: 0.97088945}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999998}
+    - name: Soldado1_Chancho_Rig_M1:Elbow_L
+      parentName: Soldado1_Chancho_Rig_M1:Shoulder_L
+      position: {x: -28.144419, y: 2.3299143, z: -0.85067475}
+      rotation: {x: 0.0016837977, y: 0.040749505, z: -0.041251995, w: 0.99831605}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: Soldado1_Chancho_Rig_M1:Hand_L
+      parentName: Soldado1_Chancho_Rig_M1:Elbow_L
+      position: {x: -40.07293, y: -0.00000006459945, z: -0.31516916}
+      rotation: {x: 0.000000021536833, y: -0.035830665, z: 0.00000006811023, w: 0.99935794}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Thumb_01
+      parentName: Soldado1_Chancho_Rig_M1:Hand_L
+      position: {x: -7.4128265, y: -4.39122, z: 10.159901}
+      rotation: {x: 0.29822552, y: 0.070748106, z: -0.03603623, w: 0.9511875}
+      scale: {x: 1, y: 1.0000002, z: 0.9999998}
+    - name: Soldado1_Chancho_Rig_M1:Thumb_02
+      parentName: Soldado1_Chancho_Rig_M1:Thumb_01
+      position: {x: -6.237895, y: 1.3230869, z: 4.3976774}
+      rotation: {x: 0.015102858, y: 0.11675804, z: -0.10678383, w: 0.9872876}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: Soldado1_Chancho_Rig_M1:Thumb_03
+      parentName: Soldado1_Chancho_Rig_M1:Thumb_02
+      position: {x: -8.190152, y: -0.18603307, z: 2.485783}
+      rotation: {x: -0.036403257, y: -0.15203469, z: -0.22999534, w: 0.9605532}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:IndexFinger_01
+      parentName: Soldado1_Chancho_Rig_M1:Hand_L
+      position: {x: -16.303827, y: 4.929755, z: 5.9000454}
+      rotation: {x: -0.0037648235, y: 0.1369473, z: -0.01956649, w: 0.99037796}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Soldado1_Chancho_Rig_M1:IndexFinger_02
+      parentName: Soldado1_Chancho_Rig_M1:IndexFinger_01
+      position: {x: -7.1625433, y: 0.031804934, z: -0.9486925}
+      rotation: {x: -0.0011539683, y: -0.010741663, z: 0.09832998, w: 0.99509525}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: Soldado1_Chancho_Rig_M1:IndexFinger_03
+      parentName: Soldado1_Chancho_Rig_M1:IndexFinger_02
+      position: {x: -6.525154, y: 1.1204399, z: -0.82787687}
+      rotation: {x: -0.0069121895, y: -0.025717523, z: 0.057002492, w: 0.99801886}
+      scale: {x: 0.99999964, y: 1.0000001, z: 0.9999999}
+    - name: Soldado1_Chancho_Rig_M1:IndexFinger_04
+      parentName: Soldado1_Chancho_Rig_M1:IndexFinger_03
+      position: {x: -7.258141, y: 2.4022324, z: -0.4348102}
+      rotation: {x: -0.004519649, y: -0.028039929, z: -0.15906802, w: 0.986859}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Finger_01
+      parentName: Soldado1_Chancho_Rig_M1:Hand_L
+      position: {x: -15.471467, y: 3.7091277, z: -3.6214309}
+      rotation: {x: 0.0022267923, y: 0.018529978, z: 0.061818115, w: 0.99791294}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999999}
+    - name: Soldado1_Chancho_Rig_M1:Finger_02
+      parentName: Soldado1_Chancho_Rig_M1:Finger_01
+      position: {x: -5.357257, y: 0.6090879, z: 0.63380915}
+      rotation: {x: 0.0026372222, y: 0.019492012, z: 0.021269374, w: 0.9995803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Finger_03
+      parentName: Soldado1_Chancho_Rig_M1:Finger_02
+      position: {x: -6.5237193, y: 1.0244226, z: 0.32110348}
+      rotation: {x: -0.018149162, y: -0.07147888, z: 0.09251086, w: 0.9929769}
+      scale: {x: 1.0000004, y: 1, z: 0.9999999}
+    - name: Soldado1_Chancho_Rig_M1:Finger_04
+      parentName: Soldado1_Chancho_Rig_M1:Finger_03
+      position: {x: -8.27086, y: 2.9401617, z: 1.744807}
+      rotation: {x: 0.01664637, y: 0.096525334, z: -0.16913006, w: 0.98071444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:UpperLeg_L
+      parentName: Soldado1_Chancho_Rig_M1:Hips
+      position: {x: 3.5228214, y: 0.723456, z: 14.836725}
+      rotation: {x: 0.59819865, y: -0.06987729, z: -0.19134086, w: 0.77502537}
+      scale: {x: 0.9999999, y: 1, z: 1.0000006}
+    - name: Soldado1_Chancho_Rig_M1:LowerLeg_L
+      parentName: Soldado1_Chancho_Rig_M1:UpperLeg_L
+      position: {x: 43.488464, y: 9.73003, z: -11.096719}
+      rotation: {x: -0.6486182, y: 0.018026229, z: -0.014029235, w: -0.76077116}
+      scale: {x: 0.99999976, y: 0.9999995, z: 0.9999996}
+    - name: Soldado1_Chancho_Rig_M1:Ankle_L
+      parentName: Soldado1_Chancho_Rig_M1:LowerLeg_L
+      position: {x: 45.948997, y: -6.204271, z: -9.199732}
+      rotation: {x: -0.11716752, y: -0.16617651, z: 0.58464134, w: -0.7853991}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: Soldado1_Chancho_Rig_M1:Ball_L
+      parentName: Soldado1_Chancho_Rig_M1:Ankle_L
+      position: {x: 19.173138, y: -5.3038306, z: -0.7037618}
+      rotation: {x: -0.0063026203, y: -0.00002219394, z: -0.2697957, w: 0.962897}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000002}
+    - name: Soldado1_Chancho_Rig_M1:Toes_L
+      parentName: Soldado1_Chancho_Rig_M1:Ball_L
+      position: {x: 18.688354, y: 2.3654006, z: -0.5619581}
+      rotation: {x: -2.7462638e-13, y: -0.7071068, z: -2.7462638e-13, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:UpperLeg_R
+      parentName: Soldado1_Chancho_Rig_M1:Hips
+      position: {x: 3.5228107, y: 0.72345763, z: -14.764244}
+      rotation: {x: 0.046495512, y: 0.75250703, z: -0.6542324, w: -0.05959341}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1.0000005}
+    - name: Soldado1_Chancho_Rig_M1:LowerLeg_R
+      parentName: Soldado1_Chancho_Rig_M1:UpperLeg_R
+      position: {x: -45.870663, y: 0.3140868, z: -2.3055394}
+      rotation: {x: 0.64437777, y: 0.024462689, z: -0.0047377273, w: 0.7643013}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000007}
+    - name: Soldado1_Chancho_Rig_M1:Ankle_R
+      parentName: Soldado1_Chancho_Rig_M1:LowerLeg_R
+      position: {x: -47.233234, y: 1.6818439, z: 0.82316804}
+      rotation: {x: -0.8525376, y: -0.50531423, z: -0.06388871, w: 0.117283896}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Soldado1_Chancho_Rig_M1:Ball_R
+      parentName: Soldado1_Chancho_Rig_M1:Ankle_R
+      position: {x: -19.189648, y: 5.3138556, z: 0.8476131}
+      rotation: {x: -0.0049557756, y: -0.000016383825, z: -0.2698093, w: 0.962901}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: Soldado1_Chancho_Rig_M1:Toes_R
+      parentName: Soldado1_Chancho_Rig_M1:Ball_R
+      position: {x: -18.686144, y: -2.3669887, z: 0.1237452}
+      rotation: {x: -0.000000021846713, y: -0.7071062, z: -0.000000021846672, w: 0.7071075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_GEO_GRP
+      parentName: Soldado1_Attack1(Clone)
+      position: {x: -0, y: 0, z: 0.039530486}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Neck_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_GEO_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Torso_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_GEO_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Legs_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_GEO_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Falda_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_GEO_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Clothes_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_GEO_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Chestplate_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_GEO_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Head_GRP
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_GEO_GRP
+      position: {x: -0, y: 232.35287, z: 0.1846962}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.95, y: 0.95, z: 0.95}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Head_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_Head_GRP
+      position: {x: -0, y: -232.35287, z: -0.1846962}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Hat_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_Head_GRP
+      position: {x: -0, y: -232.35287, z: -0.1846962}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Ears_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_Head_GRP
+      position: {x: -0, y: 6.7498465, z: -6.228858}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0526316, y: 1.0526316, z: 1.0526316}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Ear_R_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_Ears_GEO
+      position: {x: -0, y: -238.76523, z: 5.732719}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Ear_L_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_Ears_GEO
+      position: {x: -0, y: -238.76523, z: 5.732719}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Mask_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_Head_GRP
+      position: {x: -0, y: -232.35287, z: -0.1846962}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Visor_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_Head_GRP
+      position: {x: -0, y: -232.35287, z: -0.1846962}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Gloves_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_GEO_GRP
+      position: {x: -0, y: 155.15384, z: 0.3863001}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Glove_L_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_Gloves_GEO
+      position: {x: -0, y: -155.15384, z: -0.3863001}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Glove_R_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_Gloves_GEO
+      position: {x: -0, y: -155.15384, z: -0.3863001}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Hombreras_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_GEO_GRP
+      position: {x: -0.000011444092, y: 163.45673, z: -2.435504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Hombrera_R_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_Hombreras_GEO
+      position: {x: 0.000011444092, y: -163.45673, z: 2.435504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Hombrera_L_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_Hombreras_GEO
+      position: {x: 0.000011444092, y: -163.45673, z: 2.435504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Boots_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_GEO_GRP
+      position: {x: 16.419632, y: 11.110917, z: 14.925093}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Boot_R_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_Boots_GEO
+      position: {x: -16.419632, y: -11.110917, z: -14.925093}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Soldier1_Boot_L_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Soldier1_Boots_GEO
+      position: {x: -16.419632, y: -11.110917, z: -14.925093}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:Maze_GRP
+      parentName: Soldado1_Attack1(Clone)
+      position: {x: 1.2487676, y: 1.5459566, z: 0.08625427}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Soldado1_Chancho_Rig_M1:Maze_GEO
+      parentName: Soldado1_Chancho_Rig_M1:Maze_GRP
+      position: {x: -124.87676, y: -154.59566, z: -8.625427}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt1
+      parentName: Soldado1_Attack1(Clone)
+      position: {x: 1.0076523, y: 2.04477, z: -0.17877497}
+      rotation: {x: -0.71328205, y: 0.0013217124, z: -0.0057684863, w: 0.7008522}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt2
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt1
+      position: {x: -6.8223286, y: -1.9840938, z: 75.616035}
+      rotation: {x: -0.012367792, y: -0.05725397, z: 0.34459716, w: 0.9369215}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt3
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt2
+      position: {x: -11.167877, y: 7.1369753, z: -2.4709889e-14}
+      rotation: {x: -0.0250415, y: -0.094906196, z: -0.3009427, w: 0.94857746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt4
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt3
+      position: {x: -15.258515, y: 2.7339242e-15, z: -1.0658141e-14}
+      rotation: {x: 0.0050840196, y: -0.07680263, z: -0.016811868, w: 0.9968916}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt5
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt4
+      position: {x: -15.724465, y: -2.5313085e-14, z: -1.5987212e-14}
+      rotation: {x: 0.010863836, y: -0.10639089, z: -0.01868871, w: 0.9940894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt6
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt5
+      position: {x: -17.116814, y: -2.653433e-14, z: -3.5527137e-15}
+      rotation: {x: 0.015635574, y: -0.11026493, z: -0.020175887, w: 0.99357444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt7
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt6
+      position: {x: -13.610817, y: 3.5527137e-14, z: 1.7763568e-15}
+      rotation: {x: 0.022724273, y: -0.14085947, z: 0.0012043524, w: 0.9897681}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt8
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt7
+      position: {x: -9.225635, y: 4.8849813e-15, z: 0}
+      rotation: {x: -0.04449647, y: 0.5594751, z: 0.06561804, w: 0.8250466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt9
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt1
+      position: {x: 6.8115416, y: -0.2680669, z: 75.77361}
+      rotation: {x: -0.07861601, y: 0.9949169, z: -0.0038260808, w: -0.06281123}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt10
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt9
+      position: {x: -13.596719, y: 7.029967e-16, z: 1.110223e-15}
+      rotation: {x: -0.0031539167, y: 0.09376026, z: -0.015541878, w: 0.9954685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt11
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt10
+      position: {x: -15.258515, y: 4.599099e-14, z: -4.440892e-15}
+      rotation: {x: -0.0050840196, y: 0.07680263, z: -0.016811868, w: 0.9968916}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt12
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt11
+      position: {x: -15.724465, y: 3.7803094e-14, z: 2.4868996e-14}
+      rotation: {x: -0.010863829, y: 0.10639082, z: -0.018688703, w: 0.9940894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt13
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt12
+      position: {x: -17.116816, y: -2.2426505e-14, z: 1.0658141e-14}
+      rotation: {x: -0.015635597, y: 0.1102651, z: -0.020175908, w: 0.9935744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt14
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt13
+      position: {x: -13.610815, y: -6.4392935e-15, z: 3.7303494e-14}
+      rotation: {x: -0.022724258, y: 0.14085938, z: 0.0012043664, w: 0.9897681}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt15
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt14
+      position: {x: -9.225635, y: -3.619327e-14, z: 2.3536728e-14}
+      rotation: {x: -0.12303807, y: 0.81845546, z: 0.0053421785, w: 0.5612164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt16
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt1
+      position: {x: -1.0244801, y: 7.2859964, z: 29.656694}
+      rotation: {x: -0.028306952, y: 0.9995993, z: -6.2941106e-17, w: -5.9474504e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt17
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt16
+      position: {x: -7.0263677, y: 0.5850421, z: 0}
+      rotation: {x: 0, y: -0, z: -0.04602981, w: 0.99894005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt18
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt17
+      position: {x: -67.21214, y: -0.60623753, z: 0.000000092111335}
+      rotation: {x: -0.07428829, y: 0.99723685, z: -5.65143e-17, w: 6.561199e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt19
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt16
+      position: {x: 7.0263677, y: -0.5850421, z: -0.0000076293945}
+      rotation: {x: 0.037017647, y: 0.9993146, z: -0.0000000025987112, w: 0.000000056694116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt20
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt19
+      position: {x: -67.21214, y: -0.60623753, z: -6.210712e-10}
+      rotation: {x: 0.037017602, y: 0.9993146, z: -5.8923695e-17, w: -6.345705e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldado1_Chancho_Rig_M1:CB_Jnt21
+      parentName: Soldado1_Chancho_Rig_M1:CB_Jnt1
+      position: {x: 1.170069, y: -8.321409, z: -3.7606626}
+      rotation: {x: 0, y: 0, z: 0.06979005, w: 0.9975617}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
