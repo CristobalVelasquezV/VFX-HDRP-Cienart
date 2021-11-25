@@ -9,6 +9,7 @@ Toon Shader for Unity HDRP (High Definition Rendering Pipeline).
 
 # Wind Waker Sea
 
+Recreating wind waker sea in shader graph same appearence and some logic, we can determine an object to bee at see level no matter the sea movement, this is how the boat in windwaker its always on top of the sea, even with sea movement, only supports one object, but can be extended to work with multiple object in the case of many enemy boats on the surroundings.
 
 
 https://user-images.githubusercontent.com/22778259/143433071-bd35dced-0e00-469f-866d-8a00e6f5880a.mp4
