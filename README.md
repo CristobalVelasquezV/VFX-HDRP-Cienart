@@ -9,10 +9,12 @@ Toon Shader for Unity HDRP (High Definition Rendering Pipeline).
 
 # Wind Waker Sea
 
+
+
+https://user-images.githubusercontent.com/22778259/143433071-bd35dced-0e00-469f-866d-8a00e6f5880a.mp4
+
+
 ## How To Use
-
-https://user-images.githubusercontent.com/22778259/143432849-9c9d4d37-459a-4e44-a22b-481f966f23c4.mp4
-
 
 - Place Material to a high vertex plane.
 - put cube blob script to objet you want to maintain at sea level, only supports one object for now, if you want to support more, you need to add their position to the taylor series manually.
